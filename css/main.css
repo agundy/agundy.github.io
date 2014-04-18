@@ -2,6 +2,10 @@ body {
 	margin: 0px 20px 10px 0px;
 }
 
+a{
+	text-decoration: none;
+}
+
 .title-bar{
 	background-color: #2B5CFF;
 	color: #ffffff;
@@ -29,9 +33,12 @@ body {
 
 .title-bar a{
 	color: #ffffff;
-	text-decoration: none;
 }
 
 .row {
-	display: inline;
+	/*display: inline;*/
+}
+
+.page-content{
+	padding: 30px 40px 30px 40px;
 }
