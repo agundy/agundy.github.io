@@ -104,7 +104,7 @@ a{
 }
 
 #title{
-	margin-top: 2%;
+	margin-top: 25px;
 }
 
 .row {
@@ -112,7 +112,9 @@ a{
 }
 
 .page-content{
-	padding-top: 	13%;
+	display: block;
+	height: 500px;
+	padding-top: 	150px;
 	padding-right: 	15%;
 	padding-bottom: 10%;
 	padding-left:  	15%;
@@ -127,4 +129,10 @@ a{
 
 #profile-photo{
 	
+}
+
+#footer{
+	font-size: 11pt;
+	color: grey;
+	text-align: center;
 }
