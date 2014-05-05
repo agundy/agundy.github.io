@@ -1,0 +1,24 @@
+<div class="title-bar">
+	<a id="title" href="./index.html">Aaron Gunderson</a>
+	<ul class="link-section">
+		<li><a href="./about_me.html">About</a></li>
+		<li><a href="./projects.html">Projects</a></li>
+		
+		<li>
+			<a href="">Contact</a>
+			<ul>
+			{% for profile in site.data.profiles %}
+				<li><a href="{{ profile.url }}">{{ profile.name }}</a></li>
+			{% endfor %}
+				<li><script type="text/javascript">
+					var username = "contact";
+					var hostname = "agundy.com";
+					var link_text = username + "@" + hostname;
+					document.write("<a href='" + "mail" + "to:" + link_text + "''>"+"Email" + "</a>" )
+					</script>
+				</li>
+		</ul>
+		</li>
+
+	</ul>
+</div>
