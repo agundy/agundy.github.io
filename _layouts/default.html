@@ -24,6 +24,16 @@
 		<ul class="link-section">
 			<li><a href="./about_me.html">About</a></li>
 			<li><a href="./projects.html">Projects</a></li>
+			
+			<li>
+				<a href="">Contact</a>
+				<ul>
+				{% for profile in site.data.profiles %}
+					<li><a href="{{ profile.url }}">{{ profile.name }}</a></li>
+				{% endfor %}
+			</ul>
+			</li>
+
 		</ul>
 	</div>
 
