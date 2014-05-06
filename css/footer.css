@@ -2,7 +2,7 @@
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -4em;
+	margin: 0 auto -5em;
 }
 
 .footer, .push{
@@ -11,6 +11,6 @@
 
 #footer{
 	font-size: 11pt;
-	color: grey;
+	color: #A6A6A6;
 	text-align: center;
 }

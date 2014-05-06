@@ -1,19 +1,17 @@
 * {
-	font-size: 100%;
+	font-size: 1em;
 	font-family: 'Roboto', sans-serif;
+	color: white;
 }
 body {
 	padding: 0px 0px 0 0px;
 	margin: 0 0 0 0;
 	height: 100%;
+	background-color: #575757; 
 }
 
 a{
 	text-decoration: none;
-}
-
-.row {
-	/*display: inline;*/
 }
 
 .page-content{
@@ -26,13 +24,15 @@ a{
 
 .column{
 	float: left;
-	/*display: inline-block;*/
+	text-align: center;
 	margin-left: 3%;
 	margin-right: 3%;
 }
 
 #profile-photo{
-	
+	box-shadow:1px 1px 5px #3B3B3B;
 }
 
-
+#contact-list li{
+	list-style-type: none;
+}

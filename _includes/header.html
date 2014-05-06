@@ -3,20 +3,17 @@
 	<ul class="link-section">
 		<li><a href="/about/">About</a></li>
 		<li><a href="/projects/">Projects</a></li>
-		<li><a href="/docs/Resume.pdf">Resume</a></li>
+		<li><a href="/docs/Resume.pdf" target="_blank">Resume</a></li>
+
 		<li>
 			<a href="/contact/">Contact</a>
 			<ul>
 			{% for profile in site.data.profiles %}
-				<li><a href="{{ profile.url }}">{{ profile.name }}</a></li>
+				<li><a href="{{ profile.url }}" target="_blank">{{ profile.name }}</a></li>
 			{% endfor %}
-				<li><script type="text/javascript">
-					var username = "contact";
-					var hostname = "agundy.com";
-					var link_text = username + "@" + hostname;
-					document.write("<a href='" + "mail" + "to:" + link_text + "''>"+"Email" + "</a>" )
-					</script>
-				</li>
+			<li>
+				<script type="text/javascript">get_email_link("Email")</script>
+			</li>
 		</ul>
 		</li>
 		

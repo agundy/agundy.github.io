@@ -1,5 +1,9 @@
 - name: Github
   url: http://www.github.com/agundy
+  src: /img/GitHub-Mark-32px.png
 
 - name: LinkedIn
   url: https://www.linkedin.com/pub/aaron-gunderson/5a/591/252
+
+- name: Twitter
+  url: https://twitter.com/aaron_gundy
