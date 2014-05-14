@@ -1,4 +1,7 @@
 .title-bar{
+	position: absolute;
+	left: 0;
+	top: 0;
 	background-color: #385B9f;
 	color: #ffffff;
 	font-size: 16pt;
@@ -9,8 +12,9 @@
 	padding-right: 1%;
 	display: block;
 	margin: 0;
+	/*margin-top: 0;*/
 	height: 65px;
-	box-shadow:1px 1px 5px #3B3B3B;
+	box-shadow:1px 1px 5px #3a3a3a;
 }
 
 .link-section{

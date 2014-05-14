@@ -5,13 +5,13 @@
   src: 
 
 - name: Alfred
-  description: Drink serving robot turned into a Nerf dispensing robot after things went wrong.
+  description: Drink serving robot turned into a Nerf dispensing robot.
   html_name: Alfred
   url: 
   src: 
 
 - name: Rensselaer Electric Vehicle
-  description: An electric car that competes in Houston, Texas
+  description: An electric car that competes in Houston, Texas.
   html_name: REV
   url:
   src: 

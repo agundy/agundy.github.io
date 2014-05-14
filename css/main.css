@@ -1,16 +1,16 @@
 * {
-	font-size: 1em;
 	font-family: 'Roboto', sans-serif;
 	color: white;
 }
 html{
 	position: relative;
-    min-height: 100%;
+	min-height: 100%;
 }
 body {
-	padding: 0px 0px 50px 0px;
-	margin: 0 0 0;	
-	background-color: #333333; 
+	padding: 0px 0px 40px 0px;
+	margin: 100px 0 80px 0;	
+	background-color: #5E5E5E; 
+	height: 100%;
 }
 
 a{
@@ -23,10 +23,20 @@ a{
 
 .page-content{
 	display: block;
-	padding-top: 	150px;
-	padding-right: 	23%;
-	padding-bottom: 0;
-	padding-left:  	23%;
+	padding-top: 	3em;
+	margin-left:  	18%;
+	margin-right: 	18%;
+	padding-left:  	5%;
+	padding-right: 	5%;
+	padding-bottom: 3em;
+	margin-bottom: 0;
+	background-color: #333333; 
+	min-height: 350px;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
 .project{
@@ -42,11 +52,17 @@ a{
 	list-style-type: none;
 }
 
+#project-list li:hover{
+	background-color: #444;
+}
+
 #profile-photo{
+	height: 200px;
 	box-shadow:1px 1px 5px #444445;
 	float: left;
 	margin-left: 3%;
 	margin-right: 3%;
+	margin-bottom: 200px;
 }
 
 #contact-list li{
