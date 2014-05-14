@@ -1,0 +1,23 @@
+- name: 4xB
+  description: Django web app to help track grades.
+  html_name: 4xB
+  url: 
+  src: 
+
+- name: Alfred
+  description: Drink serving robot turned into a Nerf dispensing robot after things went wrong.
+  html_name: Alfred
+  url: 
+  src: 
+
+- name: Rensselaer Electric Vehicle
+  description: An electric car that competes in Houston, Texas
+  html_name: REV
+  url:
+  src: 
+
+- name: Gunderbar
+  description: Working on a start up to help share goods with people you know.
+  html_name: Gunderbar
+  url:
+  src: 

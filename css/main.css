@@ -8,10 +8,9 @@ html{
     min-height: 100%;
 }
 body {
-	padding: 0px 0px 0 0px;
+	padding: 0px 0px 50px 0px;
 	margin: 0 0 0;	
-	/*height: 100%;*/
-	background-color: #6C6F70; 
+	background-color: #333333; 
 }
 
 a{
@@ -30,8 +29,21 @@ a{
 	padding-left:  	23%;
 }
 
+.project{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.project-title{
+	font-size: 14pt;
+}
+
+#project-list{
+	list-style-type: none;
+}
+
 #profile-photo{
-	box-shadow:1px 1px 5px #3B3B3B;
+	box-shadow:1px 1px 5px #444445;
 	float: left;
 	margin-left: 3%;
 	margin-right: 3%;

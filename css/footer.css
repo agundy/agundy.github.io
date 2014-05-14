@@ -1,26 +1,13 @@
-.wrapper{
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -5em;
-}
-
-.footer, .push{
-	clear:both;
-}
-
-#footer{
+footer *{
 	font-size: 11pt;
 	color: #bbbbbb;
-	text-align: center;
-}
-#footer img{
-	height: 16px;
-	padding-left: 3px;
-	padding-right: 3px;
 }
 
+footer a{
+	color: #eeeeee;
+}
 footer {
+	text-align: center;
     position: absolute;
     left: 0;
     bottom: 0;
