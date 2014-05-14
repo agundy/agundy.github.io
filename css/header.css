@@ -1,5 +1,5 @@
 .title-bar{
-	background-color: #10AC00;
+	background-color: #385B9f;
 	color: #ffffff;
 	font-size: 16pt;
 	width: 98%;
@@ -15,7 +15,7 @@
 
 .link-section{
     float: right;
-    padding-right: 1%;
+    padding-right: 0%;
     display: inline-block;
 }
 
@@ -37,9 +37,9 @@
 .title-bar ul ul{
 	display: none;
 	margin-right: 0;
-	padding-left: 10px;
 	margin-right: 0px;
 	float: left;
+	background-color: #385B9f;
 }
 .title-bar ul li:hover > ul{
 	display: block;
@@ -48,8 +48,9 @@
 .title-bar ul {
 	list-style: none;
 	position: relative;
+	padding-left: 0px;
+	margin-right: 0px;
 	display: inline-block;
-	background: #10AC00;
 }
 
 .title-bar ul li{
@@ -66,13 +67,11 @@
 }
 
 .title-bar ul li:hover{
-	background: #14DC00;
+	background: #416ABA;
 }
 
 .title-bar ul li:hover > ul { 
-	/*padding-top: 5px;*/
 	padding-left: 0px;
-	/*padding: 0px;*/
 }
 
 .title-bar ul li:hover > ul li {

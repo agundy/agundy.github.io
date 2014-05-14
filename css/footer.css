@@ -11,14 +11,19 @@
 
 #footer{
 	font-size: 11pt;
-	color: #aaaaaa;
+	color: #bbbbbb;
 	text-align: center;
+}
+#footer img{
+	height: 16px;
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
+    height: 50px;
     width: 100%;
 }
