@@ -5,6 +5,19 @@ title: Projects | Aaron Gunderson
 
 <div class="row">
     <div class="page-content">
-        Coming soon...
+    	<ul id="project-list">
+    		{% for project in site.data.projects %}
+       		<li><a href="#{{ project.html_name }}">{{ project.name}}</a></li>
+       		{% endfor %}
+    	</ul>
+		
+		{% for project in site.data.projects %}
+       		<div class="project">
+       			<a href="{{ project.url }}" name="{{ project.html_name }}" class="project-title">{{ project.name}}</a>
+       			<p>{{ project.description }}</p>
+       		</div>
+
+       	{% endfor %}
+
     </div>
 </div>
