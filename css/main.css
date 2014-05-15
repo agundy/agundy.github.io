@@ -8,8 +8,8 @@ html{
 }
 body {
 	padding: 0px 0px 40px 0px;
-	margin: 100px 0 80px 0;	
-	background-color: #5E5E5E; 
+	margin: 100px 0 80px 0;
+	background-color: #5E5E5E;
 	height: 100%;
 }
 
@@ -30,9 +30,9 @@ a{
 	padding-right: 	5%;
 	padding-bottom: 3em;
 	margin-bottom: 0;
-	background-color: #333333; 
+	background-color: #333333;
 	min-height: 350px;
-
+	box-shadow: 3px 3px 3px #222222;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px; /* future proofing */
@@ -40,16 +40,24 @@ a{
 }
 
 .project{
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align:center;
 }
 
 .project-title{
 	font-size: 14pt;
 }
 
+.project-img{
+	margin-top: 10px;
+	margin-bottom: 0;
+	max-width: 80%;
+}
+
 #project-list{
 	list-style-type: none;
+	margin-bottom: 100px;
 }
 
 #project-list li:hover{
