@@ -1,0 +1,16 @@
+---
+layout: default
+title: Blog | Aaron Gunderson
+---
+
+<div class="page-content">
+    <p><br></p>
+    <ul>
+        {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {{ post.excerpt }}
+            </li
+        {% endfor %}
+    </ul>
+</div>
