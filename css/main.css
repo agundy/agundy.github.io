@@ -76,3 +76,22 @@ a{
 #contact-list li{
 	list-style-type: none;
 }
+
+#blog-list{
+	list-style-type:none;
+}
+
+.button{
+	margin: 35px;
+	display: inline;
+	background-color: #385B9f;
+	padding: 10px;
+}
+
+.button:hover{
+	background: #416ABA;
+}
+
+.navigation{
+	padding-top: 75px;
+}

@@ -12,7 +12,6 @@
 	padding-right: 1%;
 	display: block;
 	margin: 0;
-	/*margin-top: 0;*/
 	height: 65px;
 	box-shadow:1px 1px 5px #3a3a3a;
 }
@@ -74,7 +73,7 @@
 	background: #416ABA;
 }
 
-.title-bar ul li:hover > ul { 
+.title-bar ul li:hover > ul {
 	padding-left: 0px;
 }
 

@@ -8,7 +8,7 @@
   description: Drink serving robot turned into a Nerf dispensing robot.
   html_name: Alfred
   url:
-  src:
+  src: /assets/img/alfred.png
 
 - name: Rensselaer Electric Vehicle
   description: An electric car that competes in Houston, Texas.
