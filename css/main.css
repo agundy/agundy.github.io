@@ -1,6 +1,6 @@
 * {
 	font-family: 'Roboto', sans-serif;
-	color: white;
+	color: #eee;
 }
 html{
 	position: relative;
@@ -15,6 +15,11 @@ body {
 
 a{
 	text-decoration: none;
+	color: #fff;
+}
+
+img{
+	max-width:100%;
 }
 
 .center{
@@ -23,11 +28,11 @@ a{
 
 .page-content{
 	display: block;
-	padding-top: 	3em;
-	margin-left:  	18%;
-	margin-right: 	18%;
-	padding-left:  	5%;
-	padding-right: 	5%;
+	padding-top: 3em;
+	margin-left: 18%;
+	margin-right: 18%;
+	padding-left: 5%;
+	padding-right: 5%;
 	padding-bottom: 3em;
 	margin-bottom: 0;
 	background-color: #333333;
@@ -95,3 +100,10 @@ a{
 .navigation{
 	padding-top: 75px;
 }
+
+.gist * {color:#000}
+.gist{font-size:13px;line-height:18px;margin-bottom:20px;width:80%; color: #000;margin-left:10%;}
+.gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
+.gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:13px !important}
+.gist-meta a{color:#26a !important;text-decoration:none}
+.gist-meta a:hover{color:#0e4071 !important}
