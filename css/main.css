@@ -38,10 +38,6 @@ img{
 	background-color: #333333;
 	min-height: 350px;
 	box-shadow: 3px 3px 3px #222222;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px; /* future proofing */
-	-khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
 .project{
