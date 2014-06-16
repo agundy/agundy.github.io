@@ -9,7 +9,7 @@ title: Projects | Aaron Gunderson
 
 	<ul id="project-list">
 		{% for project in site.data.projects %}
-   		<a href="#{{ project.html_name }}"><li>{{ project.name}}</li></a>
+   		<li><a href="#{{ project.html_name }}">{{ project.name}}</a></li>
    		{% endfor %}
 	</ul>
 
@@ -17,7 +17,7 @@ title: Projects | Aaron Gunderson
 	<hr>
 	<div class="project">
 		<h1>
-			<a href="{{ project.url }}" name="{{ project.html_name }}" class="project-title">
+			<a href="{{ project.url }}" id="{{ project.html_name }}" class="project-title">
 				{{ project.name}}
 			</a>
 		</h1>
