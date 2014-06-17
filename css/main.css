@@ -1,6 +1,6 @@
 * {
 	font-family: 'Roboto', sans-serif;
-	color: #eee;
+	color: #ddd;
 }
 html{
 	position: relative;
@@ -9,7 +9,7 @@ html{
 body {
 	padding: 0px 0px 40px 0px;
 	margin: 100px 0 80px 0;
-	background-color: #5E5E5E;
+	background-color: #fff;
 	height: 100%;
 }
 
@@ -35,9 +35,8 @@ img{
 	padding-right: 5%;
 	padding-bottom: 3em;
 	margin-bottom: 0;
-	background-color: #333333;
+	background-color: #333;
 	min-height: 350px;
-	box-shadow: 3px 3px 3px #222222;
 }
 
 .project{
@@ -67,7 +66,6 @@ img{
 
 #profile-photo{
 	height: 200px;
-	box-shadow:1px 1px 5px #444445;
 	float: left;
 	margin-left: 3%;
 	margin-right: 3%;
