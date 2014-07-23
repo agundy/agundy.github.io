@@ -14,10 +14,10 @@ title: Projects | Aaron Gunderson
 	</ul>
 
 	{% for project in site.data.projects %}
-	<hr>
+	<hr id="{{ project.html_name }}">
 	<div class="project">
 		<h1>
-			<a href="{{ project.url }}" id="{{ project.html_name }}" class="project-title">
+			<a href="{{ project.url }}"  class="project-title">
 				{{ project.name}}
 			</a>
 		</h1>
