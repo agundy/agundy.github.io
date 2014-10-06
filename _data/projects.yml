@@ -1,21 +1,21 @@
 - name: Whiteboard
   description: Whiteboard helps keep track of your homework and grades for your classes and allows groups to keep track of members grades for membership requirements.
   html_name: Whiteboard
-  url: http://www.agundy.com/Whiteboard/
+  url: /projects/whiteboard/
   src: /assets/img/Whiteboard_screenshot.png
   alt: Screenshot of the Whiteboard webpage.
 
 - name: Rensselaer Electric Vehicle
   description: Currently the acting Electronics Lead for the electric car team at RPI. We compete in the Shell Eco-Marathon and have two cars. I work mostly with the control systems of the vehicles.
   html_name: REV
-  url: #
+  url: /projects/rev/
   src: /assets/img/rev_car.JPG
   alt: Picture of a red car on sawhorses with REV on hood.
 
 - name: Alfred
   description: Drink serving robot turned into a Nerf dispensing robot.
   html_name: Alfred
-  url: #
+  url: /projects/alfred/
   src: /assets/img/alfred.png
   alt: Base of robot being worked on with motors, chains and a frame.
 
