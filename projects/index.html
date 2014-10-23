@@ -3,31 +3,44 @@ layout: default
 title: Projects | Aaron Gunderson
 ---
 
-<div class="page-content">
-	<h1>Projects</h1>
-  Here are a few projects I have worked on.
+<div class="row">
+	<div class="col-md-12">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+					<h2>Projects</h2>
+					Here are a few projects I have worked on.
 
-	<ul id="project-list">
-		{% for project in site.data.projects %}
-   		<li><a href="#{{ project.html_name }}">{{ project.name}}</a></li>
-   		{% endfor %}
-	</ul>
-
-	{% for project in site.data.projects %}
-	<hr id="{{ project.html_name }}">
-	<div class="project">
-		<h1>
-			<a href="{{ project.url }}"  class="project-title">
-				{{ project.name}}
-			</a>
-		</h1>
-
-		<br>
-
-	    <img class="project-img" src="{{ project.src }}" alt="{{ project.alt }}">
-
-		<p>{{ project.description }}</p>
+					<ul>
+						{% for project in site.data.projects %}
+							<li><a href="#{{ project.html_name }}">{{ project.name}}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+				
+			{% for project in site.data.projects %}
+			<div class="row">
+				<div class="col-md-12">
+					<hr id="{{ project.html_name }}">
+					<h2>
+					<a href="{{ project.url }}">
+						{{ project.name}}
+					</a>
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-md-6">
+				    <a href="#" class="thumbnail">
+						<img src="{{ project.src }}" alt="{{ project.alt }}">
+					</a>
+				</div>
+				<div class="col-md-6">	
+					<p class="">{{ project.description }}</p>
+				</div>
+			</div>
+			{% endfor %}
+			</div>
+		</div>
 	</div>
-	{% endfor %}
-
 </div>

@@ -7,13 +7,20 @@
 </head>
 
 <body>
-		{% include header.html %}
-
-		{{ content }}
-		
-		<footer>
-			{% include footer.html %}
-		</footer>
+	<div class='container'>
+		<div id="layout" class="row">
+			<div class="col-md-2 col-md-offset-1 col-xs-offset-0">
+				<p><a href="/">Aaron Gunderson</a></p>
+				<p><a href="/about/">About</a></p>
+				<p><a href="/projects/">Projects</a></p>
+				<p><a href="/blog/">Blog</a></p>
+				<p><a href="/contact">Find Me</a></p>
+			</div>
+			<div class="col-md-9 col-xs-12">
+				{{ content }}
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>

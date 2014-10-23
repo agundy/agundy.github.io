@@ -7,37 +7,39 @@
 </head>
 
 <body>
-    {% include header.html %}
-
-    <div class="page-content">
-        {{ page.date | date: '%B %d, %Y' }}
-
-        <h1>{{ page.title }}</h1>
-
-        {{ content }}
-
-        <br>
-        <br>
-        <br>
-
-        <div class="center navigation">
-            <div class="button">
-                <a  href="{{ page.previous.url }}">Last Post</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1 col-xs-offset-0">
+                <p><a href="/">Aaron Gunderson</a></p>
+                <p><a href="/about/">About</a></p>
+                <p><a href="/projects/">Projects</a></p>
+                <p><a href="/blog/">Blog</a></p>
+                <p><a href="/contact">Find Me</a></p>
             </div>
-            <div class="button">
-                <a href="/blog/">All Posts</a>
-            </div>
-            <div class="button">
-                <a href="{{ page.next.url }}">Next Post</a>
-            </div>
+            <div class="col-md-9 col-xs-12">
+                {{ page.date | date: '%B %d, %Y' }}
 
+                <h1>{{ page.title }}</h1>
+
+                {{ content }}
+
+                <br>
+                <br>
+                <br>
+
+                <div class="center navigation">
+                    <div class="button">
+                        <a  href="{{ page.previous.url }}">Last Post</a>
+                    </div>
+                    <div class="button">
+                        <a href="/blog/">All Posts</a>
+                    </div>
+                    <div class="button">
+                        <a href="{{ page.next.url }}">Next Post</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
 </body>
-
-<footer>
-    {% include footer.html %}
-</footer>
-
 </html>

@@ -3,8 +3,7 @@ layout: default
 title: Blog | Aaron Gunderson
 ---
 
-<div class="page-content">
-    <ul id="blog-list">
+    <ul class="unstyled">
         {% for post in site.posts %}
             <li>
                 <p align="right">
@@ -14,9 +13,8 @@ title: Blog | Aaron Gunderson
                     <h2>{{ post.title }}</h2>
                 </a>
                 {{ post.excerpt }}
-	            <a href="{{ post.url }}">Read More</a>
-	            <hr>
+                <a href="{{ post.url }}">Read More</a>
+                <hr>
             </li>
         {% endfor %}
     </ul>
-</div>
