@@ -1,9 +1,30 @@
 ---
-layout: default
+layout: project
 title: Whiteboard | Aaron Gunderson
+header: Whiteboard
 ---
 
-<div class="page-content">
-	<h1>Whiteboard</h1>
-	Whiteboard is a grade tracking application and can be seen <a href="http://uniwhiteboard.com">here</a>.
+<div class="page-header">
+  <h2>{{ site.data.projects.whiteboard.title }}
+    <small>
+      <a href="http://{{ site.data.projects.whiteboard.url }}">{{ site.data.projects.whiteboard.url }}</a>
+      </small>
+  </h2>
+</div>
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li class="active">Whiteboard</li>
+</ol>
+
+<div class="row">
+  <div class="col-sm-12 col-md-12">
+    <a href="#" class="thumbnail">
+      <img src="{{ site.data.projects.whiteboard.img.src }}" alt="{{ site.data.projects.whiteboard.img.alt }}">
+    </a>
+    <p>
+      {{ site.data.projects.whiteboard.description }}
+    </p>
+  </div>
 </div>

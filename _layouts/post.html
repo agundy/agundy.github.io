@@ -10,16 +10,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-md-offset-1 col-xs-offset-0">
-                <p><a href="/">Aaron Gunderson</a></p>
-                <p><a href="/about/">About</a></p>
-                <p><a href="/projects/">Projects</a></p>
-                <p><a href="/blog/">Blog</a></p>
-                <p><a href="/contact">Find Me</a></p>
+                {% include navigation.html%}
             </div>
             <div class="col-md-9 col-xs-12">
-                {{ page.date | date: '%B %d, %Y' }}
 
-                <h1>{{ page.title }}</h1>
+                <ol class="breadcrumb">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/blog/">Blog</a></li>
+                  <li class="active">{{ page.title }}</li>
+                </ol>
+
+                <div class="page-header">
+                  <h2>{{ page.title }} <small>{{ page.date | date: '%B %d, %Y' }}</small></h2>
+                </div>
 
                 {{ content }}
 
@@ -29,7 +32,7 @@
 
                 <div class="center navigation">
                     <div class="button">
-                        <a  href="{{ page.previous.url }}">Last Post</a>
+                        <a  href="{{ page.previous.url }}">Previous Post</a>
                     </div>
                     <div class="button">
                         <a href="/blog/">All Posts</a>

@@ -1,7 +1,30 @@
 ---
-layout: default
+layout: project
 title: REV | Aaron Gunderson
+header: Rensselaer Electric Vehicle
 ---
 
-<h1>Rensselaer Electric Vehicle</h1>
-Rensselaer Electric Vehicle is a team at RPI that competes in the Shell Eco Marathon every year. I am an assistant electronics lead working primarily with the control systems in the car.
+<div class="page-header">
+  <h2>{{ site.data.projects.rev.title }}
+    <small>
+      <a href="http://{{ site.data.projects.rev.url }}">{{ site.data.projects.rev.url }}</a>
+      </small>
+  </h2>
+</div>
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li class="active">REV</li>
+</ol>
+
+<div class="row">
+  <div class="col-sm-12 col-md-12">
+    <a href="#" class="thumbnail">
+      <img src="{{ site.data.projects.rev.img.src }}" alt="{{ site.data.projects.rev.img.alt }}">
+    </a>
+    <p>
+      {{ site.data.projects.rev.description }}
+    </p>
+  </div>
+</div>

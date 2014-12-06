@@ -1,0 +1,8 @@
+title: Whiteboard
+description: | 
+    Whiteboard is a grade tracking system built using Django. 
+    Completely open source I lead development of it as a part of <a href="http://rcos.rpi.edu">Rensselaer Center for Open Source</a>.
+url: uniwhiteboard.com
+img:
+  src: /assets/img/Whiteboard_screenshot.png
+  alt: Whiteboard's Screenshot
