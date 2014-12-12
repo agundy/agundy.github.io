@@ -4,10 +4,10 @@ title: Blog | Aaron Gunderson
 header: Blog
 ---
 
-<ul class="unstyled">
+<ul class="unstyled blog">
     {% for post in site.posts %}
-        <li>
-            <p align="right">
+        <li class="blog-post">
+            <p class="blog-date" align="right">
                 {{ post.date | date: '%B %d, %Y' }}
             </p>
             <a href="{{ post.url }}">

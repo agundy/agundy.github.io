@@ -37,4 +37,27 @@ ul{
     list-style-type: none;
 }
 
+.left-bar{
+    border-left: solid 1px #aaa;
+    padding-left: 2em;
+}
 
+.bottom-bar{
+    border-bottom: solid 1px #aaa;
+    padding-bottom: .4em;
+    margin-bottom: 1em;
+}
+
+.blog{
+    padding-left: 0;
+}
+
+.blog-post{
+    position:relative;
+}
+
+.blog-date{
+    position:absolute;
+    right:0px;
+    top:4px;
+}
