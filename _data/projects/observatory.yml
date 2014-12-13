@@ -1,0 +1,12 @@
+title: Observatory
+description: |
+    <p>
+        Rensselaer Center for Open Source is a group of RPI students who work on open source projects. Members are required to host code on Github and release updates on progress via blog entries. All of this is handled by our custom built project tracking software Observatory. I currently maintain the current one managing website updates, bug fixes and whatever else is needed.
+    </p>
+    <p>
+        I have recently begun the process of building our next generation dashboard from scratch. The new dashboard has a planned completion date of January 2015 and will be moved into production immediately.
+    </p>
+url: rcos.rpi.edu/
+img:
+  src: /assets/img/Observatory.png
+  alt: Screenshot of the RCOS homepage.
