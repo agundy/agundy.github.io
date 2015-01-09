@@ -25,10 +25,3 @@
   url: /projects/alfred/
   src: /assets/img/alfred.png
   alt: Base of robot being worked on with motors, chains and a frame.
-
-- name: Gunderbar
-  description: Working on a start up to help share goods with people you know.
-  html_name: Gunderbar
-  url: #
-  src: /assets/img/gunderbar_logo.png
-  alt: Gunderbar Logo
