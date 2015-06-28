@@ -1,0 +1,18 @@
+title: Business Card Reader
+description: |
+    <p>
+      For a final project for my Introduction to Computer Vision class I worked on a contact information extracter
+      with a partner. We built a web app that you could upload an image to and our code would find the business card
+      in the image, crop to the card and then process the card looking for regions of interests. Those regions of
+      interest were then fed through the OCR engine Tesseract and then the returned text was proccessed and returned
+      in a user friendly manner for tagging contact info.
+    </p>
+    <p>
+    For this project I built the web site backend in Flask with a RQ job queue. Image processing was done with OpenCV
+     and then the results were fed through Tesseract. This project was a lot of fun and I learned a lot of diverse
+     technologies bringing it together.
+    </p>
+url: https://github.com/agundy/BusinessCardReader
+img:
+  src: /assets/img/comp_vision_screenshot.png
+  alt: A screenshot of the Business Card Reader in action.

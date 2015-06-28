@@ -1,3 +1,17 @@
+- name: BusinessCardReader
+  description: A web service to extract contact information from business cards
+  html_name: BusinessCardReader
+  url: /projects/business-card-reader/
+  src: /assets/img/comp_vision_screenshot.png
+  alt: BusinessCardReader Screenshot
+
+- name: Eventy
+  description: Eventy, an iOS application that helps citizens find community events nearby, where and when they'll happen, and get directions to get involved in the community.
+  html_name: Eventy
+  url: /projects/eventy/
+  src: /assets/img/attbanner.jpg
+  alt: AT&T Tech Valley Civic App challenge banner.
+
 - name: Whiteboard
   description: Whiteboard helps keep track of your homework and grades for your classes and allows groups to keep track of members grades for membership requirements.
   html_name: Whiteboard

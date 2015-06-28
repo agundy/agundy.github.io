@@ -1,8 +1,0 @@
----
-layout: post
-title: Pennapps
----
-
-Another hackathon, another weekend. This time at University of Pennsylvania for Pennapps. It was a lot of fun. I really enjoyed meeting a bunch of new people and having fun in Philadelphia.
-
-Kiana and I teamed up again and built a Pebble Messaging Service. Our project is viewable on <a href="http://challengepost.com/software/pebblepokes">Challengepost</a> It is a hackathon project so a little rough around the edges and not complete but we had a pretty solid proof of concept. I built the web service for sending messages and location data and Kiana built the Pebble app. I went a lot more in depth with node.js and Mongodb and learned a lot. Even used some of the angular.js I have been learning recently for the settings page for the Pebble set up and adding friends, custom phrases and an email. Maybe in the future it will be open sourced or release but right now the project is still in development. I really want to see this come to my Pebble though. I see a lot of room for a message building system that we have. It has a lot of potential and beats the quick reply options on the beta version of Pebble for Android. 
