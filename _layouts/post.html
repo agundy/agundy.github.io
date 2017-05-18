@@ -2,47 +2,47 @@
 
 <html>
 
-<head>
+  <head>
     {% include head.html %}
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="row">
-            <div class="col-md-2 col-md-offset-1 col-xs-offset-0">
-                {% include navigation.html%}
-            </div>
-            <div class="col-md-9 col-xs-12">
-
-                <ol class="breadcrumb">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/blog/">Blog</a></li>
-                  <li class="active">{{ page.title }}</li>
-                </ol>
-
-                <div class="page-header">
-                  <h2>{{ page.title }} <small>{{ page.date | date: '%B %d, %Y' }}</small></h2>
-                </div>
-
-                {{ content }}
-
-                <br>
-                <br>
-                <br>
-
-                <div class="center navigation">
-                    <div class="button">
-                        <a  href="{{ page.previous.url }}">Previous Post</a>
-                    </div>
-                    <div class="button">
-                        <a href="/blog/">All Posts</a>
-                    </div>
-                    <div class="button">
-                        <a href="{{ page.next.url }}">Next Post</a>
-                    </div>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-md-2 col-md-offset-1 col-xs-offset-0">
+          {% include navigation.html%}
         </div>
+        <div class="col-md-9 col-xs-12">
+
+          <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li class="active">{{ page.title }}</li>
+          </ol>
+
+          <div class="page-header">
+            <h2>{{ page.title }} <small>{{ page.date | date: '%B %d, %Y' }}</small></h2>
+          </div>
+
+          {{ content }}
+
+          <br>
+          <br>
+          <br>
+
+          <div class="center navigation">
+            <div class="button">
+              <a  href="{{ page.previous.url }}">Previous Post</a>
+            </div>
+            <div class="button">
+              <a href="/blog/">All Posts</a>
+            </div>
+            <div class="button">
+              <a href="{{ page.next.url }}">Next Post</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -3,17 +3,21 @@
   company_url: https://www.bookbub.com/home/
   job_title: Software Engineer
   job_description: Work on a team of engineers building tools responsible for the book and author data through all the products.
+  dates: January 2017 -
   technologies:
       - Ruby
       - Rails
       - Javascript
       - React
+      - Elasticsearch
+      - PostgreSQL
 
 - name: BookBub
   company_description: Great Deals on Bestselling Ebooks
   company_url: https://www.bookbub.com/home/
   job_title: Software Engineer Intern
   job_description: Work on a team of engineers building tools responsible for the book and author data through all the products.
+  dates: May 2016 - August 2016
   technologies:
       - Ruby
       - Rails
@@ -25,6 +29,7 @@
   company_url: http://www.graba.engineer/
   job_title: Co-Founder
   job_description: Write custom software and building hardware protoypes for companies who need our engineering expertise.
+  dates: February 2016 -
   technologies:
       - Ruby
       - Rails
@@ -35,7 +40,8 @@
   company_description: Think-tank and consulting firm
   company_url: http://www.theinventorsguild.com/ 
   job_title: Inventor
-  job_description: Work on multidisciplinary teams building minimum viable products for clients.
+  job_description: Completed work on multidisciplinary teams building minimum viable products for clients. Also participated in business model and technical consulting. Competed in hackathons and competitions.
+  dates: February 2015 -
   technologies:
       - Node.js
       - Angular.js
@@ -46,7 +52,8 @@
   company_description: Full-Cloud 3-D CAD
   company_url: https://www.onshape.com/ 
   job_title: Operations Co-Op
-  job_description: I spent 7 months working on the operations team. The operations team was responsible for the deployment of the a multi-service web application. I worked automating deployment tasks.
+  job_description: I worked on deployment and build automation, monitoring and alerting, and other miscellaneous projects needed by the team.  Some of the various technologies I used at Onshape including Ansible, Puppet, Python, MongoDB, Java, Angular, Logstash, and Elasticsearch.  I spent 7 months working on the operations team. The operations team was responsible for the deployment of the a multi-service web application. I worked automating deployment tasks.
+  dates: May 2015 - December 2015
   technologies:
       - Ansible
       - Puppet
