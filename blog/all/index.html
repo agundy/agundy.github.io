@@ -1,0 +1,20 @@
+---
+layout: default
+title: Blog - All Posts | Aaron Gunderson
+header: All Posts
+---
+
+<ul class="unstyled blog">
+  {% for post in site.posts %}
+  <li class="blog-post">
+    <p>
+      <span class="blog-date pull-right">
+        {{ post.date | date: '%B %d, %Y' }}
+      </span>
+      <a href="{{ post.url }}">
+        <h4>{{ post.title }}</h4>
+      </a>
+    </p>
+  </li>
+  {% endfor %}
+</ul>

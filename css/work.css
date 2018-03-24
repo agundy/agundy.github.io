@@ -1,38 +1,39 @@
-.work {
+.jobs {
+  padding-left: 15px;
 }
 
 .job {
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-    border-bottom: solid 1px #aaa;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #aaa;
 }
 
 .work .company {
-    display: inline;
+  display: inline;
 }
 
 .work .company-description {
-    text-align: left;
-    margin-left: 5px;
-    color: grey;
-    display: inline;
+  text-align: left;
+  margin-left: 5px;
+  color: grey;
+  display: inline;
 }
 
 .work .job-title, .job-date {
-    text-align: right;
-    color: grey;
+  text-align: right;
+  color: grey;
 }
 
 ul .tag-list{
-    margin-top: 10px;
-    padding: 0px;
-    text-align: right;
+  margin: 10px;
+  padding: 10px;
+  text-align: right;
 }
 
 ul .tag-list .tag {
-    padding: 4px;
-    background-color: grey;
-    color: white;
-    display: inline;
-    border-radius: 5px;
+  padding: 4px;
+  background-color: grey;
+  color: white;
+  display: inline;
+  border-radius: 5px;
 }

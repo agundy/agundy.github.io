@@ -1,1 +1,8 @@
 markdown: kramdown
+plugins:
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: blog/page:num/

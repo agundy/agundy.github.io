@@ -9,10 +9,10 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-2 col-md-offset-1 col-xs-offset-0">
+        <div class="links col-sm-2 col-sm-offset-0 col-xs-8 col-xs-offset-2">
           {% include navigation.html%}
         </div>
-        <div class="col-md-9 col-xs-12">
+        <div class="col-sm-10 col-xs-12">
 
           <ol class="breadcrumb">
             <li><a href="/">Home</a></li>
@@ -29,19 +29,6 @@
           <br>
           <br>
           <br>
-
-          <div class="center navigation">
-            <div class="button">
-              <a  href="{{ page.previous.url }}">Previous Post</a>
-            </div>
-            <div class="button">
-              <a href="/blog/">All Posts</a>
-            </div>
-            <div class="button">
-              <a href="{{ page.next.url }}">Next Post</a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </body>

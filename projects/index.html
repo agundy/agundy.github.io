@@ -6,46 +6,42 @@ description: Projects that Aaron Gunderson has worked on
 ---
 
 <div class="row">
-	<div class="col-md-12">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-xs-12">
-						<p>
-							Here are a few projects I have worked on.
-						</p>
-					</div>
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>
+        Here are a few projects I have worked on.
+        </p>
+      </div>
 
-					<ul>
-						{% for project in site.data.project_list %}
-							<li><a href="#{{ project.html_name }}">{{ project.name}}</a></li>
-						{% endfor %}
-					</ul>
-				</div>
+      <ul>
+        {% for project in site.data.project_list %}
+        <li><a href="#{{ project.html_name }}">{{ project.name}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
 
-			{% for project in site.data.project_list %}
-			<div class="row">
-				<div class="col-md-12">
-					<hr id="{{ project.html_name }}">
-					<h3>
-					<a href="{{ project.url }}">
-						{{ project.name}}
-					</a>
-					</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-6 col-md-6">
-				    <a href="{{ project.url }}" class="thumbnail">
-						<img src="{{ project.src }}" alt="{{ project.alt }}">
-					</a>
-				</div>
-				<div class="col-md-6">
-					<p class="">{{ project.description }}</p>
-				</div>
-			</div>
-			{% endfor %}
-			</div>
-		</div>
-	</div>
+    {% for project in site.data.project_list %}
+    <div class="row">
+      <div class="col-md-12">
+        <hr id="{{ project.html_name }}">
+        <h3>
+          <a href="{{ project.url }}">
+            {{ project.name}}
+          </a>
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-md-6">
+        <a href="{{ project.url }}" class="thumbnail">
+          <img src="{{ project.src }}" alt="{{ project.alt }}">
+        </a>
+      </div>
+      <div class="col-md-6">
+        <p class="">{{ project.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>

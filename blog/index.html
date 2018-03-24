@@ -1,0 +1,39 @@
+---
+layout: default
+title: Blog | Aaron Gunderson
+header: Blog
+---
+
+<ul class="unstyled blog">
+  {% for post in paginator.posts %}
+  <li class="blog-post">
+    <p class="blog-date pull-right">
+    {{ post.date | date: '%B %d, %Y' }}
+    <a class="blog-post-title" href="{{ post.url }}">
+      <h3>{{ post.title }}</h3>
+    </a>
+    </p>
+    {{ post.excerpt }}
+    <a href="{{ post.url }}">Read More</a>
+    <hr>
+  </li>
+  {% endfor %}
+  <li>
+  </li>
+</ul>
+
+<!-- Pagination links -->
+<div class="row">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+  <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+  <span class="next ">Next</span>
+  {% endif %}
+  <p class="pull-right"><a href="/blog/all/">All Posts</a></p>
+</div>
