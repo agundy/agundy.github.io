@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My First Gem
+redirect_from: "/my-first-gem/"
 tags:
 - Ruby
 - Programming

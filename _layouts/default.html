@@ -7,9 +7,9 @@
   </head>
 
   <body>
-    <div class='container'>
+    <div class='container-fluid'>
       <div id="layout" class="row">
-        <div class="links col-sm-2 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+        <div class="links col-md-2 col-sm-2 col-sm-offset-0 col-xs-8 col-xs-offset-2 text-right">
           {% include navigation.html%}
         </div>
         <div class="left-bar col-md-8 col-sm-10 col-xs-12">
@@ -18,7 +18,9 @@
               <h2 class="bottom-bar">{{ page.header }}</h2>
             </div>
           </div>
-          {{ content }}
+          <div class="row">
+            {{ content }}
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Whiteboard
+redirect_from: "/whitebo/"
 ---
 
 My RCOS project Whiteboard that was started in the spring semester has finally been released into beta. It is a Django project and has had a lot of work done on it before preparations were made for deployment. What I didn't realize is as the size of the project grows without attempting to deploy things can become complicated. Django also has a lot of settings to configure. Eventually I got it working with Apache on AWS with S3 storage and an RDS.

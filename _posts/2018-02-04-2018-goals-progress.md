@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2018 Goals Progress
+redirect_from: "/2018-goals-progress/"
 tags:
   - Learning
   - Productivity

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open Office Life
+redirect_from: "/open-office-life/"
 tags:
   - Productivity
 ---

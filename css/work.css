@@ -23,17 +23,3 @@
   text-align: right;
   color: grey;
 }
-
-ul .tag-list{
-  margin: 10px;
-  padding: 10px;
-  text-align: right;
-}
-
-ul .tag-list .tag {
-  padding: 4px;
-  background-color: grey;
-  color: white;
-  display: inline;
-  border-radius: 5px;
-}

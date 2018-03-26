@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Half-Marathon and Hard Work
+redirect_from: "/half-marathon-and-hard-work/"
 tags:
   - Running
   - Learning

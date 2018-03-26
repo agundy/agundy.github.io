@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Running Tests in Vagrant From Vim
+title: Running Rspec Tests in Vagrant From Vim
+redirect_from: "/running-rspec-tests-in-vagrant-from-vim/"
 tags:
 - Programming
 - Rspec

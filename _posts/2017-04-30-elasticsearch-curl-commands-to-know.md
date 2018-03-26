@@ -1,6 +1,7 @@
 ---
 layout: post
-title: My First Gem
+title: Elasticsearch Curl Commands to Know
+redirect_from: "/elasticsearch-curl-commands-to-know/"
 tags:
   - Elasticsearch
   - Programming
@@ -26,7 +27,7 @@ $ curl localhost:9200/
   "tagline" : "You Know, for Search"
 }
 ```
-##Health of your Cluster
+## Health of your Cluster
 ```
 $ curl localhost:9200/_cat/health
 1493150160 19:56:00 elasticsearch yellow 1 1 20 20 0 0 20 0 - 50.0%
@@ -35,7 +36,7 @@ Red - no good
 Yellow - pending or only node in cluster
 Green - Good
 
-##Aliases
+## Aliases
 To see a list of aliases on a node:
 ```
 $ curl localhost:9200/_aliases/

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Computer
+redirect_from: "/new-computer/"
 tags:
 - Computers
 ---

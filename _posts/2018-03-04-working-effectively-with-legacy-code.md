@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Working Effectively with Legacy Code
+redirect_from: "/working-effectively-with-legacy-code/"
 tags:
   - Learning
   - Programming

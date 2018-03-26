@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Post Grad Reading Goals
+redirect_from: "/post-grad-reading-goals/"
 tags:
   - Reading
 ---

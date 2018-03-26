@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ansible and Distributed-Systems Course Project
+redirect_from: "/ansible-and-distributed-systems/"
 tags:
   - Programming
   - Ansible

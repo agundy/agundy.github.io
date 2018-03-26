@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dell Chromebook 13 Review
+redirect_from: "/dell-chromebook-13-review/"
 tags:
 - Computers
 ---
