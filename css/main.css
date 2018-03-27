@@ -63,9 +63,12 @@ ul{
   text-decoration: none;
 }
 
+.blog-post-navigation {
+  width: 100%;
+}
+
 .blog-post-navigation a {
   display: block;
-  width: 50%;
   margin: 1em 0;
 }
 
