@@ -12,7 +12,7 @@ description: |
      and then the results were fed through Tesseract. This project was a lot of fun and I learned a lot of diverse
      technologies bringing it together.
     </p>
-url: https://github.com/agundy/BusinessCardReader
+url: github.com/agundy/BusinessCardReader
 img:
   src: /assets/img/comp_vision_screenshot.png
   alt: A screenshot of the Business Card Reader in action.
