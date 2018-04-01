@@ -5,7 +5,7 @@ header: Blog
 ---
 
 <div class="col-xs-12">
-  <ul class="unstyled blog">
+  <ul class="blog">
     {% for post in paginator.posts %}
     <li class="blog-post">
       <p class="blog-date pull-right">{{ post.date | date: '%B %d, %Y' }}</p>

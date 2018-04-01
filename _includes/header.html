@@ -7,7 +7,7 @@
 		<li><a href="/assets/Resume.pdf">Resume</a></li>
 		<li>
 			<a href="/contact/">Contact</a>
-			<ul>
+			<ul class="unstyled">
 			{% for profile in site.data.profiles %}
 				<li><a href="{{ profile.url }}">{{ profile.name }}</a></li>
 			{% endfor %}
