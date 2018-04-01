@@ -55,6 +55,10 @@ ul.unstyled {
   position:relative;
 }
 
+.blog-post img {
+  width: 100%;
+}
+
 .blog-date {
   right:0px;
   top:4px;

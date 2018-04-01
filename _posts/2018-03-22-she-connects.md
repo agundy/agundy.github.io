@@ -7,16 +7,20 @@ tags:
 
 ---
 
-[Venture Cafe](http://vencaf.org/) had an event _She Connects_ a night
+
+![She Connects Whiteboard Summary](/assets/img/she_connects.png)
+
+[Venture Cafe](http://vencaf.org/) had an event _She Connects_, a night
 celebrating women entrepreneurs. I attended a town hall on women in tech and
-here are my notes, broken into the four parts discussed
+here are my notes. The forum was broken into four categories, pipeline,
+mentoring, leadership and strategic partnerships.
 
 ### Pipeline
 
 _Encouraging women in tech, bringing and keeping them in the workforce._
 
-- Learning and motivation does not come from expensive kits. Can just be encouragement and giving role models, and learning fundamentals.
-- Suggested to socialize young boys and girls to see females as engineers. Having boys see women engineers can go a long way for them accepting their female peers as future engineers.
+- Learning and motivation does not come from expensive kits, it can just come from encouragement, role models, and learning fundamentals.
+- A suggestion was raised to socialize young boys and girls to see females as engineers. Having boys see women engineers can go a long way for them accepting their female peers as future engineers.
 - Job descriptions need to be inclusive and not signalling male culture. Example given was stereotypical male nerd culture like Star Wars should not be in a job description.
  
 
@@ -26,6 +30,7 @@ _Mentoring and growing women in tech._
 
 - Mentoring is a two way relationship, there needs to be a reciprocal benefit. How can you add value for your mentor?
 - Male mentors are just as important as female mentors. Males have the ability to make a difference. Males may also have privilege they can leverage to help their mentee.
+- If you benefited from a mentor, consider giving back and "sending the elevator back down"
 
 ### Leadership
 
@@ -41,5 +46,5 @@ _How women in tech can be a leader._
 _Connection women to opportunities that may be typically "boys club"_
 
 - Women are given less opportunities than men because of culture and assumptions.
-- Forums focused on women entrepreneurs are a great way to be open, give back and keep the conversation open.
+- Forums focused on women entrepreneurs are a great way to be open, give back and keep the conversation flowing.
 - Some aspects of start-up culture like pitch competitions are more suited for male bravado and can be exclusive.
