@@ -8,12 +8,12 @@ tags:
 ---
 
 
-![She Connects Whiteboard Summary](/assets/img/she_connects.png)
-
 [Venture Cafe](http://vencaf.org/) had an event _She Connects_, a night
 celebrating women entrepreneurs. I attended a town hall on women in tech and
 here are my notes. The forum was broken into four categories, pipeline,
 mentoring, leadership and strategic partnerships.
+
+![She Connects Whiteboard Summary](/assets/img/she_connects.png)
 
 ### Pipeline
 
@@ -43,7 +43,7 @@ _How women in tech can be a leader._
 
 ### Strategic Partnerships
 
-_Connection women to opportunities that may be typically "boys club"_
+_Connecting women to opportunities that may be typically for men_
 
 - Women are given less opportunities than men because of culture and assumptions.
 - Forums focused on women entrepreneurs are a great way to be open, give back and keep the conversation flowing.
