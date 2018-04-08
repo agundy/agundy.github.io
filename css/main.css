@@ -1,43 +1,82 @@
-@media (min-width: 500px) {
-  body {
-    margin-top: 4%;
-    margin-bottom: 4%;
-    background-color: #fdfdfd;
-  }
-  .links{
-    margin-top: 40px;
-  }
+body {
+  display: flex;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 }
 
-@media (max-width: 500px){
+@media (min-width: 500px) {
+  body {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #fdfdfd;
+    flex-flow: row;
+  }
+
+  .navigation {
+    flex: 1 200px;
+    text-align: right;
+    padding-right: 2em;
+  }
+
+  .content {
+    flex: 3 1 500px;
+  }
+
+}
+
+@media (max-width: 700px){
   body {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: #fdfdfd;
+    flex-flow: column;
   }
 
-  .links{
-    margin-top: 10px;
+  .navigation {
+    margin-top: 2em;
+    margin-left: 1em;
+    flex: 1 0 100px;
+    text-align: left;
+    padding-right: 2em;
+  }
+
+  .content {
+    flex: 1 0 200px;
   }
 }
 
-html{
+@media (max-width: 1200px){
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+.content {
+  padding: 1em;
+}
+
+html {
   font-family: 'Roboto', sans-serif;
-  color: #444;
+  color: #333;
 }
 
 a {
   text-decoration: underline;
-  color: #111;
+  color: #222;
 }
 
 ul.unstyled {
   list-style-type: none;
 }
 
+
 .left-bar {
   border-left: solid 1px #aaa;
-  padding-left: 2em;
+  padding-left: 1em;
 }
 
 .bottom-bar {
@@ -52,11 +91,6 @@ ul.unstyled {
 }
 
 .blog-post {
-  position:relative;
-}
-
-.blog-post img {
-  width: 100%;
 }
 
 .blog-date {
@@ -69,11 +103,21 @@ ul.unstyled {
 }
 
 .blog-post-navigation {
+  display: flex;
+  flex-direction: row;
   width: 100%;
 }
 
-.blog-post-navigation a {
-  display: block;
+.blog-post-navigation section {
+  flex: 1 50px;
+}
+
+.next {
+  margin: 1em 0;
+  text-align: right;
+}
+
+.prev {
   margin: 1em 0;
 }
 
@@ -91,6 +135,88 @@ ul .tag-list .tag {
   padding: 4px;
   background-color: grey;
   color: white;
-  display: inline;
+  display: inline-block;
   border-radius: 5px;
+  margin: 1px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.jobs {
+  padding-left: 15px;
+}
+
+.job {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #aaa;
+}
+
+.work .company {
+  display: inline;
+}
+
+.work .company-description {
+  text-align: left;
+  margin-left: 5px;
+  color: grey;
+  display: inline;
+}
+
+.work .job-title, .job-date {
+  text-align: right;
+  color: grey;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project .img {
+  max-width: 90%;
+  border: 1px black;
+  border-style: solid;
+}
+
+.project-list-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-description {
+  flex: 2 0 200px;
+  padding: 10px;
+}
+
+.project-img {
+  flex: 1 200px;
+  padding: 10px;
+  margin: 1em;
+}
+
+.project-line {
+  color: #AAA;
+}
+
+.project-summary {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 2;
+  padding: 10px;
+}
+
+.project-name {
+  margin: 2em 1em 0 0;
+}
+
+.text-center {
+  text-align: center;
 }

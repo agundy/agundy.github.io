@@ -7,40 +7,27 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <div id="layout" class="row">
-        <div class="links col-lg-3 col-md-2 col-sm-2 col-sm-offset-0 col-xs-8 col-xs-offset-2 text-right">
-          {% include navigation.html%}
-        </div>
-        <div class="left-bar col-lg-6 col-md-8 col-sm-10 col-xs-12">
-          <div class="row">
-            <div class="col-md-12 page-header">
-              <h2>{{ page.title }} <small>{{ page.date | date: '%B %d, %Y' }}</small></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-xs-12 blog-post">
-              {{ content }}
-              <br>
-              <br>
-              <br>
-
-              <div class="blog-post-navigation">
-                <div class="col-xs-6">
-                  {% if page.previous.url %}
-                  <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-                  {% endif %}
-                </div>
-                <div class="col-xs-6">
-                  {% if page.next.url %}
-                  <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-                  {% endif %}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <section class="navigation">
+      {% include navigation.html%}
+    </section>
+    <section class="content left-bar">
+      <h2 class="page-header bottom-bar">{{ page.title }} <small>{{ page.date | date: '%B %d, %Y' }}</small></h2>
+      <article class="blog-post">
+        {{ content }}
+      </article>
+      <footer class="blog-post-navigation">
+        <section class="prev">
+          {% if page.previous.url %}
+          <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+          {% endif %}
+        </section>
+        <section class="next">
+          {% if page.next.url %}
+          <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+          {% endif %}
+        </section>
+      </footer>
+    </section>
+    <section >
   </body>
 </html>

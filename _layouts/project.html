@@ -7,15 +7,11 @@
   </head>
 
   <body>
-    <div class='container'>
-      <div id="layout" class="row">
-        <div class="links col-sm-2 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-          {% include navigation.html%}
-        </div>
-        <div class="left-bar col-lg-6 col-md-8 col-sm-10 col-xs-12">
-          {{ content }}
-        </div>
-      </div>
-    </div>
+    <section class="navigation">
+      {% include navigation.html%}
+    </section>
+    <section class="content left-bar">
+      {{ content }}
+    </section>
   </body>
 </html>

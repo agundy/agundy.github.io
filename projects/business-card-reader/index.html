@@ -3,29 +3,18 @@ layout: project
 title: BusinessCardReader | Aaron Gunderson
 ---
 
-<div class="page-header">
-	<h2>{{ site.data.projects.businesscardreader.title }}
-		<small>
-			<a
-					href="http://{{ site.data.projects.businesscardreader.url }}">{{ site.data.projects.businesscardreader.url }}</a>
-		</small>
-	</h2>
-</div>
-
-<ol class="breadcrumb">
-	<li><a href="/">Home</a></li>
-	<li><a href="/projects/">Projects</a></li>
-	<li class="active">BusinessCardReader</li>
-</ol>
-
-<div class="row">
-	<div class="col-sm-12 col-md-12">
-		<a href="#" class="thumbnail">
-			<img src="{{ site.data.projects.businesscardreader.img.src }}"
-			     alt="{{ site.data.projects.businesscardreader.img.alt }}">
-		</a>
-		<p>
-			{{ site.data.projects.businesscardreader.description }}
-		</p>
-	</div>
-</div>
+<article class="project">
+  <h2 class="page-header bottom-bar">{{ site.data.projects.businesscardreader.title }}
+    <small>
+      <a href="http://{{ site.data.projects.businesscardreader.url }}">{{ site.data.projects.businesscardreader.url }}</a>
+    </small>
+  </h2>
+  <div class="project-img">
+    <a href="#">
+      <img class="img" src="{{ site.data.projects.businesscardreader.img.src }}" alt="{{ site.data.projects.businesscardreader.img.alt }}">
+    </a>
+  </div>
+  <p>
+  {{ site.data.projects.businesscardreader.description }}
+  </p>
+</article>

@@ -7,22 +7,14 @@
   </head>
 
   <body>
-    <div class='container-fluid'>
-      <div id="layout" class="row">
-        <div class="links col-lg-3 col-md-2 col-sm-2 col-sm-offset-0 col-xs-8 col-xs-offset-2 text-right">
-          {% include navigation.html %}
-        </div>
-        <div class="left-bar col-lg-6 col-md-8 col-sm-10 col-xs-12">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="bottom-bar">{{ page.header }}</h2>
-            </div>
-          </div>
-          <div class="row">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-    </div>
+    <section class="navigation">
+      {% include navigation.html %}
+    </section>
+    <section class="content left-bar">
+      <article>
+        <h2 class="bottom-bar">{{ page.header }}</h2>
+        {{ content }}
+      </article>
+    </section>
   </body>
 </html>

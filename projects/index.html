@@ -5,31 +5,24 @@ header: Projects
 description: Projects that Aaron Gunderson has worked on
 ---
 
-<div class="col-xs-12">
-  <div class="row">
-    <div class="col-xs-12">
-      <p>Here are a few projects I have worked on.</p>
-      <ul class="unstyled">
-        {% for project in site.data.project_list %}
-        <li><a href="#{{ project.html_name }}">{{ project.name}}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+<p>Here are a few projects I have worked on.</p>
+<ul class="unstyled">
   {% for project in site.data.project_list %}
-  <div class="row">
-    <div class="col-md-12">
-      <hr id="{{ project.html_name }}"></hr>
-      <h3><a href="{{ project.url }}">{{ project.name }}</a></h3>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6">
-      <a href="{{ project.url }}"> <img class="img-responsive" src="{{ project.src }}" alt="{{ project.alt }}"></a>
-    </div>
-    <div class="col-sm-6">
-      <p class="">{{ project.description }}</p>
-    </div>
-  </div>
+  <li><a href="#{{ project.html_name }}">{{ project.name}}</a></li>
   {% endfor %}
-</div>
+</ul>
+
+{% for project in site.data.project_list %}
+<section>
+  <hr class="project-line" id="{{ project.html_name }}"></hr>
+  <article class="project-list-item">
+    <h3 class="project-name"><a href="{{ project.url }}">{{ project.name }}</a></h3>
+    <div class="project-summary">
+      <a class="project-img" href="{{ project.url }}">
+        <img class="img" src="{{ project.src }}" alt="{{ project.alt }}">
+      </a>
+      <p class="project-description">{{ project.description }}</p>
+    </div>
+  </article>
+</section>
+{% endfor %}

@@ -4,27 +4,18 @@ title: Observatory | Aaron Gunderson
 header: Rensselaer Electric Vehicle
 ---
 
-<div class="page-header">
-  <h2>{{ site.data.projects.observatory.title }}
+<article class="project">
+  <h2 class="page-header bottom-bar">{{ site.data.projects.observatory.title }}
     <small>
       <a href="http://{{ site.data.projects.observatory.url }}">{{ site.data.projects.observatory.url }}</a>
-      </small>
+    </small>
   </h2>
-</div>
-
-<ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
-  <li><a href="/projects/">Projects</a></li>
-  <li class="active">Observatory</li>
-</ol>
-
-<div class="row">
-  <div class="col-sm-12 col-md-12">
-    <a href="#" class="thumbnail">
-      <img src="{{ site.data.projects.observatory.img.src }}" alt="{{ site.data.projects.observatory.img.alt }}">
+  <div class="project-img">
+    <a href="#">
+      <img class="img" src="{{ site.data.projects.observatory.img.src }}" alt="{{ site.data.projects.observatory.img.alt }}">
     </a>
-    <p>
-      {{ site.data.projects.observatory.description }}
-    </p>
   </div>
-</div>
+  <p>
+  {{ site.data.projects.observatory.description }}
+  </p>
+</article>

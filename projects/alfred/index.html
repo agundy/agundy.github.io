@@ -3,27 +3,18 @@ layout: project
 title: Alfred | Aaron Gunderson
 ---
 
-<div class="page-header">
-  <h2>{{ site.data.projects.alfred.title }}
+<article class="project">
+  <h2 class="page-header bottom-bar">{{ site.data.projects.alfred.title }}
     <small>
       <a href="http://{{ site.data.projects.alfred.url }}">{{ site.data.projects.alfred.url }}</a>
-      </small>
+    </small>
   </h2>
-</div>
-
-<ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
-  <li><a href="/projects/">Projects</a></li>
-  <li class="active">Alfred</li>
-</ol>
-
-<div class="row">
-  <div class="col-sm-12 col-md-12">
-    <a href="#" class="thumbnail">
-      <img src="{{ site.data.projects.alfred.img.src }}" alt="{{ site.data.projects.alfred.img.alt }}">
+  <div class="project-img">
+    <a href="#">
+      <img class="img" src="{{ site.data.projects.alfred.img.src }}" alt="{{ site.data.projects.alfred.img.alt }}">
     </a>
-    <p>
-      {{ site.data.projects.alfred.description }}
-    </p>
   </div>
-</div>
+  <p>
+  {{ site.data.projects.rev.description }}
+  </p>
+</article>
