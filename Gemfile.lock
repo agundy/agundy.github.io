@@ -38,6 +38,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-sitemap (1.2.0)
+      jekyll (~> 3.3)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.16.2)
@@ -76,6 +78,7 @@ DEPENDENCIES
   jekyll-gist!
   jekyll-paginate!
   jekyll-redirect-from!
+  jekyll-sitemap!
 
 BUNDLED WITH
    1.13.2
