@@ -21,9 +21,8 @@ body {
   }
 
   .content {
-    flex: 3 1 500px;
+    flex: 0 1 500px;
   }
-
 }
 
 @media (max-width: 700px){
@@ -45,7 +44,7 @@ body {
   }
 
   .content {
-    flex: 1 0 200px;
+    flex: 0 1 200px;
   }
 }
 
@@ -73,7 +72,6 @@ a {
 ul.unstyled {
   list-style-type: none;
 }
-
 
 .left-bar {
   border-left: solid 1px #aaa;
@@ -120,27 +118,50 @@ ul.unstyled {
   text-decoration: none;
 }
 
+/*
+ *  Blog Post navigation styles
+ */
 .blog-post-navigation {
   display: flex;
-  flex-direction: row;
   width: 100%;
 }
 
-.blog-post-navigation section {
-  flex: 1 50px;
+@media (min-width: 500px) {
+  .blog-post-navigation {
+    flex-direction: row;
+  }
+
+  .blog-post-navigation section {
+    flex: 1 50px;
+  }
+
+  .blog-post-navigation .link {
+    margin: 0.5em 0 0 0;
+    text-align: center;
+  }
+
+  .next {
+    text-align: right;
+  }
 }
 
-.next {
-  margin: 1em 0;
-  text-align: right;
+@media (max-width: 500px) {
+  .blog-post-navigation {
+    flex-direction: column;
+  }
+
+  .blog-post-navigation section {
+    flex: 1 1em;
+  }
+
+  .blog-post-navigation .link {
+    margin: 0.5em 0 0 0;
+    text-align: center;
+  }
 }
 
-.prev {
-  margin: 1em 0;
-}
-
-.blog-post-navigation .next {
-  text-align: right;
+.disabled {
+  color: #aaa;
 }
 
 ul .tag-list{
@@ -190,6 +211,10 @@ ul .tag-list .tag {
 
 pre {
   white-space: pre-wrap;
+}
+
+img {
+  width: 100%;
 }
 
 .img {

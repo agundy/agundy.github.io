@@ -18,18 +18,19 @@ header: Blog
   </ul>
 
   <!-- Pagination links -->
-  <div class="row">
+  <div>
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
     {% else %}
-    <span class="previous">Previous</span>
+    <span class="previous disabled">Previous</span>
     {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">Next</a>
     {% else %}
-    <span class="next ">Next</span>
+    <span class="next disabled">Next</span>
     {% endif %}
-    <p class="pull-right"><a href="/blog/all/">All Posts</a></p>
+    <span class="pull-right">&nbsp;<a href="/blog/all/">All Posts</a></span>
+    <span class="pull-right"><a href="/feed.xml"><i class="fa fa-rss"></i></a></span>
   </div>
 </div>

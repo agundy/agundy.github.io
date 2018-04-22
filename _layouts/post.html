@@ -16,12 +16,15 @@
         {{ content }}
       </article>
       <footer class="blog-post-navigation">
-        <section class="prev">
+        <section class="link prev">
           {% if page.previous.url %}
           <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
           {% endif %}
         </section>
-        <section class="next">
+        <section class="link all">
+          <a href="/blog/all/">All Posts</a>
+        </section>
+        <section class="link next">
           {% if page.next.url %}
           <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
           {% endif %}
