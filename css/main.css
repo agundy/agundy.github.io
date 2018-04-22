@@ -91,6 +91,10 @@ ul.unstyled {
   list-style-type: none;
 }
 
+.blog-post hr {
+  color: #aaa;
+}
+
 .blog-post h1 {
   font-size: 1.5em;
 }
