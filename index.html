@@ -9,7 +9,17 @@ description: Aaron Gunderson is a software engineer interested in web applicatio
   <p>
   I am a Software Engineer at BookBub. I graduated from Rensselaer Polytechnic Institute with a Computer Science degree. I am interested in building useful web applications, scalabilitiy, operations, and learning! 
   </p>
-<p>
-<img id="profile-photo" src="http://www.gravatar.com/avatar/0d2200a0a3c5836574d352b74be8145a.png?s=200" alt="Aaron Gunderson's Gravatar image"/>   
-</p>
+</article>
+<article>
+  <h3>Recent Posts:</h3>
+  {% for post in site.posts limit: 3 %}
+  <p>
+  <div class="blog-date">
+    {{ post.date | date: '%B %d, %Y' }}
+  </div>
+  <a href="{{ post.url }}">
+    <b>{{ post.title }}</b>
+  </a>
+  </p>
+  {% endfor %}
 </article>

@@ -21,7 +21,7 @@ body {
   }
 
   .content {
-    flex: 0 1 500px;
+    flex: 3 1 500px;
   }
 }
 
@@ -112,6 +112,8 @@ ul.unstyled {
 .blog-date {
   right:0px;
   top:4px;
+  min-width: 150px;
+  display: inline-block;
 }
 
 .blog-post-title {
