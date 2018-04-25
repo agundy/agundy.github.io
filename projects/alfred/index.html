@@ -4,17 +4,20 @@ title: Alfred | Aaron Gunderson
 ---
 
 <article class="project">
-  <h2 class="page-header bottom-bar">{{ site.data.projects.alfred.title }}
-    <small>
-      <a href="http://{{ site.data.projects.alfred.url }}">{{ site.data.projects.alfred.url }}</a>
-    </small>
-  </h2>
+  <h1 class="page-title bottom-bar">
+    {{ site.data.projects.alfred.title }}
+  </h1>
+  <p>
+  <b>Link:</b>
+  <a href="http://{{ site.data.projects.alfred.url }}">{{ site.data.projects.alfred.url }}</a>
+  </p>
+
   <div class="project-img">
     <a href="#">
       <img class="img" src="{{ site.data.projects.alfred.img.src }}" alt="{{ site.data.projects.alfred.img.alt }}">
     </a>
   </div>
   <p>
-  {{ site.data.projects.rev.description }}
+  {{ site.data.projects.alfred.description }}
   </p>
 </article>

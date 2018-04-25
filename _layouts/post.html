@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
   <head>
     {% include head.html %}
@@ -8,10 +8,10 @@
 
   <body>
     <section class="navigation">
-      {% include navigation.html%}
+      {% include navigation.html %}
     </section>
     <section class="content left-bar">
-      <h2 class="page-header bottom-bar">{{ page.title }} <small>{{ page.date | date: '%B %d, %Y' }}</small></h2>
+      <h1 class="blog-title bottom-bar">{{ page.title }} <small>{{ page.date | date: '%B %d, %Y' }}</small></h1>
       <article class="blog-post">
         {{ content }}
       </article>

@@ -89,6 +89,10 @@ ul.unstyled {
   list-style-type: none;
 }
 
+.blog-title small {
+  color: #666;
+}
+
 .blog-post hr {
   color: #aaa;
 }
@@ -103,6 +107,7 @@ ul.unstyled {
 
 .blog-post h3 {
   font-size: 1.25em;
+  display: inline-block;
 }
 
 .blog-post h4 {
@@ -112,12 +117,12 @@ ul.unstyled {
 .blog-date {
   right:0px;
   top:4px;
-  min-width: 150px;
+  min-width: 125px;
   display: inline-block;
 }
 
 .blog-post-title {
-  text-decoration: none;
+  display: inline-block;
 }
 
 /*
@@ -183,6 +188,7 @@ ul .tag-list .tag {
 
 .navbar a {
   text-decoration: none;
+  display: block;
 }
 
 .jobs {
@@ -247,7 +253,7 @@ img {
 }
 
 .project-line {
-  color: #AAA;
+  color: #aaa;
 }
 
 .project-summary {

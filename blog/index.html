@@ -4,14 +4,20 @@ title: Blog | Aaron Gunderson
 header: Blog
 ---
 
-<div class="col-xs-12">
+<section>
   <ul class="blog">
     {% for post in paginator.posts %}
     <li class="blog-post">
+      <article>
       <p class="blog-date pull-right">{{ post.date | date: '%B %d, %Y' }}</p>
-      <p><a class="blog-post-title" href="{{ post.url }}"> <h3>{{ post.title }}</h3></a></p>
-      {{ post.excerpt }}
+      <h3>
+        <a class="blog-post-title" href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      <p>
+      {{ post.excerpt | strip_html }}
+      </p>
       <a href="{{ post.url }}">Read More</a>
+      </article>
       <hr>
     </li>
     {% endfor %}
@@ -33,4 +39,4 @@ header: Blog
     <span class="pull-right">&nbsp;<a href="/blog/all/">All Posts</a></span>
     <span class="pull-right"><a href="/feed.xml"><i class="fa fa-rss"></i></a></span>
   </div>
-</div>
+</section>
