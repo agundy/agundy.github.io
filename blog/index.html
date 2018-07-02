@@ -5,17 +5,15 @@ header: Blog
 ---
 
 <section>
-  <ul class="blog">
+  <ul class="unstyled blog-list">
     {% for post in paginator.posts %}
     <li class="blog-post">
       <article>
-      <p class="blog-date pull-right">{{ post.date | date: '%B %d, %Y' }}</p>
       <h3>
         <a class="blog-post-title" href="{{ post.url }}">{{ post.title }}</a>
       </h3>
-      <p>
-      {{ post.excerpt | strip_html }}
-      </p>
+      <p class="blog-date">{{ post.date | date: '%B %d, %Y' }}</p>
+      <p>{{ post.excerpt | strip_html }}</p>
       <a href="{{ post.url }}">Read More</a>
       </article>
       <hr>

@@ -1,28 +1,38 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
 body {
   display: flex;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
   font-size: 1em;
 }
 
-@media (min-width: 500px) {
-  body {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: #fdfdfd;
-    flex-flow: row;
-  }
+#wrapper {
+  width: 80%;
+  max-width: 1200px;
+}
 
-  .navigation {
-    flex: 1 200px;
-    text-align: right;
-    padding-right: 2em;
-  }
+body {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #fdfdfd;
+  flex-flow: row;
+}
 
-  .content {
-    flex: 3 1 500px;
-  }
+.navigation {
+  margin-top: 1.5em;
+  flex: 0 1 200px;
+  text-align: right;
+  padding-right: 2em;
+}
+
+.content {
+  flex: 3 1 500px;
+  padding: 2em;
 }
 
 @media (max-width: 700px){
@@ -35,33 +45,32 @@ body {
     flex-flow: column;
   }
 
+  #wrapper {
+    width: 90%;
+  }
+
   .navigation {
-    margin-top: 2em;
-    margin-left: 1em;
+    margin-top: 0.5em;
     flex: 1 0 100px;
     text-align: left;
     padding-right: 2em;
   }
 
   .content {
-    flex: 0 1 200px;
+    flex: 0 1 250px;
   }
 }
 
-@media (max-width: 1200px){
+@media (min-width: 700px) and max-width: 1200px){
   body {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
-}
 
-.content {
-  padding: 1em;
-}
+  #wrapper {
+    width: 70%;
+  }
 
-html {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
 }
 
 a {
@@ -75,7 +84,6 @@ ul.unstyled {
 
 .left-bar {
   border-left: solid 1px #aaa;
-  padding-left: 1em;
 }
 
 .bottom-bar {
@@ -89,13 +97,17 @@ ul.unstyled {
   margin-top: 0;
 }
 
-.blog {
+.blog-list {
   padding-left: 0;
   list-style-type: none;
 }
 
 .blog-title small {
   color: #666;
+}
+
+/* blog post title wrapper */
+.blog-list li {
 }
 
 .blog-post hr {
@@ -122,11 +134,13 @@ ul.unstyled {
   right:0px;
   top:4px;
   min-width: 125px;
-  display: inline-block;
+  display: block;
 }
 
 .blog-post-title {
   display: inline-block;
+  min-width: 250px;\\
+  margin: 5px;
 }
 
 /*
@@ -234,6 +248,10 @@ img {
   height: auto;
 }
 
+.project-name-list li {
+  padding: .3em;
+}
+
 .project .img {
   max-width: 90%;
   border: 1px black;
@@ -274,4 +292,9 @@ img {
 
 .text-center {
   text-align: center;
+}
+
+.pull-right {
+  float: right;
+  text-align: right;
 }
