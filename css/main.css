@@ -25,17 +25,17 @@ body {
 
 .navigation {
   margin-top: 1.5em;
-  flex: 0 1 200px;
+  flex: 0 0 200px;
   text-align: right;
   padding-right: 2em;
 }
 
 .content {
-  flex: 3 1 500px;
+  flex: 0 1 700px;
   padding: 2em;
 }
 
-@media (max-width: 700px){
+@media (max-width: 650px){
   body {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -51,17 +51,21 @@ body {
 
   .navigation {
     margin-top: 0.5em;
-    flex: 1 0 100px;
+    flex: 0 0 100px;
     text-align: left;
-    padding-right: 2em;
+    padding-left: 2em;
   }
 
   .content {
     flex: 0 1 250px;
   }
+
+  .navigation p {
+    margin-left: 2em;
+  }
 }
 
-@media (min-width: 700px) and max-width: 1200px){
+@media (min-width: 650px) and max-width: 1200px){
   body {
     margin-left: 15%;
     margin-right: 15%;
@@ -100,41 +104,6 @@ ul.unstyled {
 .blog-list {
   padding-left: 0;
   list-style-type: none;
-}
-
-.blog-title small {
-  color: #666;
-}
-
-/* blog post title wrapper */
-.blog-list li {
-}
-
-.blog-post hr {
-  color: #aaa;
-}
-
-.blog-post h1 {
-  font-size: 1.5em;
-}
-
-.blog-post h2 {
-  font-size: 1.4em;
-}
-
-.blog-post h3 {
-  font-size: 1.25em;
-}
-
-.blog-post h4 {
-  font-size: 1em;
-}
-
-.blog-date {
-  right:0px;
-  top:4px;
-  min-width: 125px;
-  display: block;
 }
 
 .blog-post-title {
@@ -204,37 +173,6 @@ ul .tag-list .tag {
   margin: 1px;
 }
 
-.navbar a {
-  text-decoration: none;
-  display: block;
-}
-
-.jobs {
-  padding-left: 15px;
-}
-
-.job {
-  margin-bottom: 30px;
-  padding-bottom: 15px;
-  border-bottom: solid 1px #aaa;
-}
-
-.work .company {
-  display: inline;
-}
-
-.work .company-description {
-  text-align: left;
-  margin-left: 5px;
-  color: grey;
-  display: inline;
-}
-
-.work .job-title, .job-date {
-  text-align: right;
-  color: grey;
-}
-
 pre {
   white-space: pre-wrap;
 }
@@ -278,20 +216,29 @@ img {
   color: #aaa;
 }
 
-.project-summary {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  flex-grow: 2;
-  padding: 10px;
-}
-
-.project-name {
-  margin: 2em 1em 0 0;
-}
-
 .text-center {
   text-align: center;
+}
+
+@keyframes navigation_hover {
+  from { 
+    background-color: white;
+    color: black;
+  }
+  to {
+    background-color: black;
+    color: white;
+  }
+}
+
+.navbar a {
+  text-decoration: none;
+  display: block;
+  padding: 4px;
+}
+
+.navbar a:hover {
+  animation: navigation_hover 0.7s forwards;
 }
 
 .pull-right {
