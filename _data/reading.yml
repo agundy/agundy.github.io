@@ -1,0 +1,67 @@
+lists: 
+  - category: Top Books
+books:
+  - year: 2018
+    books:
+      - title: Chaos Monkeys
+      - title: Educated
+        link: 
+      - title: I Contain Multitudes
+        notes: >
+          Really interesting, casual introduction to the advances we are making in understanding how the microbiome influences our health. I enjoyed learning how new symbiosis's are changing the tides against diseases like dengue. Great read for the armchair scientist. 
+      - title: The Perfect Stranger
+      - title: Children of Dune
+      - title: Hyperion
+        notes: >
+          Really enjoyed this! Loved the world and the story’s were cool. It felt rushed at the end though and it left me wanting more! Guess I have to go get the second book.
+      - title: The Fall of Hyperion
+        notes: >
+          Enjoyed this read! Was surprised in the resolution but had fun along the way. The first book was a lot different but this pulled everything together nicely.
+      - title: The Black Swan
+        notes: >
+          I really enjoyed this book. Nassim Taleb makes a great case for not modeling and viewing the world through a Gaussian statistics lens. Instead we are in the world black swan events, or Extremistan as he calls it. Where the highly improbably and unpredictable events are what shape the world. Recommended read for anyone interested in business, economics and similar topics.
+      - title: Design of Everyday Things
+      - title: "Snowball: Warren Buffet"
+      - title: Salvage Trouble
+        notes: >
+          A fun quick read. Is eerily similar to Firefly but I still enjoyed it. Has a little twist with wizards and left me interested in the next book in the series.
+      - title: In the Beginning Was the Command Line
+        notes: >
+          An analogy filled 100+ page review of operating systems. Talks about the development of Mac vs Windows and the authors personal favorite OS, BeOS. A little sensational and opinionated about GUI's. After finishing this book I was sad that I'm on a Mac and not using a Linux laptop at work. Read it if you are looking for a quick book/long oped on computer operating systems. It's worth it.
+      - title: Never Split the Difference
+      - title: The Phoenix Project
+  - year: 2017
+    books:
+      - title: 48 Laws of Power
+      - title: Food Rules
+      - title: Caraval
+      - title: I Am Number Four
+      - title: Algorithms to Live By
+      - title: Shoe Dog
+      - title: Micro
+      - title: "Soft Skills: The Developer's Life Manual"
+      - title: The $100 Startup
+      - title: Millionaire Fastlane
+      - title: White Fang
+      - title: The Origins of Political Order
+      - title: "Hackers: Hearos of the Computer Revolution"
+      - title: Ready Player One
+      - title: Rise of the Robots
+      - title: Lean In
+      - title: Nudge
+      - title: The Circle
+      - title: Unprocessed
+      - title: Talent is Overrated
+      - title: Steve Jobs
+        notes: >
+          Extremely intriguing look into the life of Steve Jobs. If you are looking to understand more about Jobs and his legacy read this!
+      - title: Minimalist Living
+      - title: Jonathon Strange and Mr. Norell
+      - title: Thinking Fast and Slow
+      - title: The One Thing
+      - title: What if?
+      - title: The Gene
+      - title: The Power of Habit
+      - title: Life Changing Magic of Tidying Up
+      - title: The Hard Thing About Hard Things
+      - title: Slow Regard of Silent Things

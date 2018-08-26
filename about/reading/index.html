@@ -1,0 +1,53 @@
+---
+layout: default
+title: Reading | Aaron Gunderson
+header: Reading
+description: I read a lot. Here are some of my read books and reviews.
+---
+
+I read a lot. Here are some of my read books and reviews.
+
+{% for item in site.data.reading.books %}
+<h3>{{ item.year }}</h3>
+  {{ item.books | size }} books read
+  <ul>
+    {% for book in item.books %}
+    {% if book.link %}
+    <li>
+      <a href="{{ book.link }}">{{ book.title }}</a>
+      {% if book.notes != null %}
+      <a href="#{{ book.title | url_encode }}">View Notes</a>
+      <br>
+      {% endif %}
+    </li>
+    {% else %}
+    <li>
+      {{ book.title }}
+      {% if book.notes != null %}
+      <a href="#{{ book.title | url_encode }}">View Notes</a>
+      <br>
+      {% endif %}
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<hr>
+<h2>Notes and Reviews</h2>
+{% for item in site.data.reading.books %}
+<h3>{{ item.year }}</h3>
+  <ul>
+    {% for book in item.books %}
+      {% if book.notes != null %}
+      <h4 id="{{ book.title | url_encode }}">{{ book.title }}</h4>
+        {% if book.link != null %}
+        <a href="{{ book.link }}">Link</a>
+        {% endif %}
+        <p>
+        {{ book.notes }}
+        </p>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}
