@@ -44,7 +44,7 @@ books:
       - title: Millionaire Fastlane
       - title: White Fang
       - title: The Origins of Political Order
-      - title: "Hackers: Hearos of the Computer Revolution"
+      - title: "Hackers: Heros of the Computer Revolution"
       - title: Ready Player One
       - title: Rise of the Robots
       - title: Lean In
@@ -65,3 +65,48 @@ books:
       - title: Life Changing Magic of Tidying Up
       - title: The Hard Thing About Hard Things
       - title: Slow Regard of Silent Things
+  - year: 2016
+    books:
+      - title: David and Goliath
+      - title: Sapiens
+      - title: Elon Musk
+      - title: Clean Code
+      - title: Dune
+      - title: Nexus
+      - title: 7 Habits of Highly Effective People
+      - title: Deep Work
+      - title: Sleeping Giants
+      - title: The Passionate Programmer
+      - title: The Millionaire Next Door
+      - title: Slaughterhouse Five
+      - title: The Martian Chronicles
+  - year: Previous
+    books:
+        - title: Amusing Ourselves to Death
+        - title: Boomerang
+        - title: Deep Survival
+        - title: Everyday Survival
+        - title: The Communist Manifesto
+        - title: The Girl With the Dragon Tattoo
+        - title: The Girl Who Kicked the Hornets Net
+        - title: The Girl Who Played With Fire
+        - title: The Lean Startup
+        - title: The Limits of Power
+        - title: The Omnivore's Dilemma 
+        - title: Zen and The Art of Motorcycle Maintenance
+        - title: The Fountainhead
+        - title: The Road
+        - title: Anthem
+        - title: 1984
+        - title: The Tipping Point
+        - title: Outliers
+        - title: The Prince
+        - title: A Room of One's Own
+        - title: Siddhartha
+        - title: On the Road
+        - title: Silent Spring
+        - title: Ender's Game
+        - title: The Social Animal
+        - title: Mortal Engines
+        - title: Harry Potter Books
+        - title: The Handmaid's Tale
