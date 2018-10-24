@@ -16,12 +16,14 @@ here's some tips:
 That's it folks, all I got. … Not really. I actually did get some development
 done but mostly I got administrative work and thinking done.
 
+Here are my real tips:
+
 **_1.)  Be prepared to be disappointed with the internet._**
 
 This should be a given but just in case you have never used bus WiFi and you
 saw the promise of free WiFi and rejoiced. Stop it right there. Bus WiFi is not
 fast, consistent or reliable. Definitely not a great environment if you need to
-be searching for answers or downloading and uploading code. Highlight of my bus
+be searching for answers or downloading and uploading code. The highlight of my bus
 WiFi experience was a `git push` that just hung.
 
 **_2.) Have offline docs and your dependencies installed._**
@@ -33,13 +35,6 @@ library documentation offline from Alfred. This is a great tool for fast
 offline lookup and covers many internet searches without requiring the
 connection.
 
-
-- Plan offline/asynchronous work
-  - thinking
-  - code review
-  - heads down coding/tests
-
- 
 **_3.) Don't plan on being super comfortable or focused._**
 
 Another no-brainer but you aren't going to be the most focused, comfortable or
@@ -62,8 +57,7 @@ A good work plan is critical, if you don't know what you need to work on or
 need to do exploring or research you will have trouble. The main development
 tasks that I had success working on included some refactoring and test
 writing. Everything I needed was already on my computer and writing tests is
-often a thinking task over a research task.
-
+often more thinking and implementing than research.
 
 When planning bus work think about what requires little less internet or can be
 asynchronous. I had success doing the following:
@@ -83,8 +77,8 @@ environment; buses constrain you in ways that can be rewarding. Minimalist
 principles apply here where subtracting can really add to your focus. The
 constraints of an 8 hour low quality internet connection helps me get s*** done
 and reflect on things that I don't always get too. I also love being on the
-move and working in new places and environments is energizing for me and
-carries over to when I'm back in the office
+move and working in new places and environments, it can be energizing and
+carries over to when you are back in the office or home.
 
-Embrace the limitations and you can get a lot done, just don't plan burning
-through a lot of bugs or releasing new features.
+Overall just embrace the limitations and you can get a lot done; just don't
+plan burning through a lot of bugs or releasing new features.
