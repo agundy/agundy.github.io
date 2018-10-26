@@ -1,0 +1,23 @@
+- name: "RCOS: Technical Debt and Refactoring"
+  date: 10/26/2018
+  description: |
+    An introduction to technical debt and how and when to deal with it. I also introduce two refactoring techniques to help.
+  urls:
+    slides: /public/talks/2018-10-26-RCOS-Technical-Debt-And-Refactoring.html
+    code: https://github.com/agundy/talks/blob/master/technical-debt-and-refactoring/extract-method/
+
+- name: "Hack.Diversity: Automated Testing"
+  date: 7/12/2018
+  description: |
+    A chat hosted by BookBub for Hack.Diversity covering automated testing and
+    continuous integration to help write high quality code.
+  urls:
+    blog: https://medium.com/hack-diversity-movement/automated-testing-strategies-a-software-engineers-competitive-edge-443edd0a11f0
+
+- name: Introduction to Ansible
+  date: 11/17/2016
+  description: |
+    Overview of features and usage of Ansible. Gave talk @RCOS and in Software Design and Documentation class.
+  urls:
+    slides: /public/talks/2016-11-17-Intro-to-Ansible.html
+    code: https://github.com/agundy/demo_ansible

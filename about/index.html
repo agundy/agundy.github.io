@@ -45,3 +45,31 @@ software engineer in Boston.
   <li><a href="{{ mention.url }}">{{ mention.name }}</a></li>
   {% endfor %}
 </ul>
+
+<h3>Talks</h3>
+I occasionally give technical talks. Here are a few of the public ones:
+<ul>
+  <dl>
+  {% for talk in site.data.talks %}
+  <dt><i>{{ talk.name }}</i> {{ talk.date }}</dt>
+    <dd>
+    <p>
+    {{ talk.description }}
+    </p>
+    <p>
+    {% if talk.urls.code %}
+    <a href="{{ talk.urls.code }}">Code</a>
+    {% endif %}
+    {% if talk.urls.slides %}
+    <a href="{{ talk.urls.slides }}">Slides</a>
+    {% endif %}
+    {% if talk.urls.blog %}
+    <a href="{{ talk.urls.blog }}">Blog</a>
+    {% endif %}
+    </p>
+    </dd>
+    <br>
+  {% endfor %}
+  </dl>
+</ul>
+
