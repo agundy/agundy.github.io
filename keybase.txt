@@ -3,50 +3,51 @@ https://keybase.io/agundy
 
 I hereby claim:
 
-  * I am an admin of https://agundy.com
+  * I am an admin of https://www.agundy.com
   * I am agundy (https://keybase.io/agundy) on keybase.
-  * I have a public key ASAeU4vY8gFJUxX50pXLjm8pObWt4-tdLZqgAH0OSZm5RQo
+  * I have a public key ASAVWFT86w8PBiXLqLujOiozn-9u6_77gaai0GSr8vDQbAo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "01201e538bd8f201495315f9d295cb8e6f2939b5ade3eb5d2d9aa0007d0e4999b9450a",
-            "host": "keybase.io",
-            "kid": "01201e538bd8f201495315f9d295cb8e6f2939b5ade3eb5d2d9aa0007d0e4999b9450a",
-            "uid": "c097556a993b38a1efe48a0a558fda19",
-            "username": "agundy"
-        },
-        "service": {
-            "hostname": "agundy.com",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "01201e538bd8f201495315f9d295cb8e6f2939b5ade3eb5d2d9aa0007d0e4999b9450a",
+      "host": "keybase.io",
+      "kid": "0120155854fceb0f0f0625cba8bba33a2a339fef6eebfefb81a6a2d064abf2f0d06c0a",
+      "uid": "c097556a993b38a1efe48a0a558fda19",
+      "username": "agundy"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.17"
-    },
-    "ctime": 1471296734,
-    "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1471296719,
-        "hash": "7839e97f6db2e71e0dc9118deccf0ea70ac14f69739c54b1b36150222f4e9011977b14bbfeb1300436d44c3830e6837a56ce5944f246997187ab49c140a355e4",
-        "seqno": 579064
+      "ctime": 1541452582,
+      "hash": "b15839a3bf0edac1b42754dd90db876d530fdb5d58aae1e76a1fadec86bdeee1c873085d9559ec16fb954e53019f61cb1ad4f5c1b4366f7fdb4ce45ade9332cf",
+      "hash_meta": "d2017e5ec8fb2ce00b1c2daff0d1f6b4e41b44461353cb9f716cd1bcaf00509c",
+      "seqno": 3900843
     },
-    "prev": "93d8294347995eaea6b247d014037376f049f783080c6d0fe8b6dd3d8059988c",
-    "seqno": 10,
-    "tag": "signature"
+    "service": {
+      "entropy": "uMzG0eA0SiKNH/3CmLPR99r7",
+      "hostname": "www.agundy.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.9.0"
+  },
+  "ctime": 1541452589,
+  "expire_in": 504576000,
+  "prev": "d5cffb63a7470bd6cc72134ed322699ba51d7f6207f97eedf586a219206c502f",
+  "seqno": 39,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgHlOL2PIBSVMV+dKVy45vKTm1rePrXS2aoAB9DkmZuUUKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMWU1MzhiZDhmMjAxNDk1MzE1ZjlkMjk1Y2I4ZTZmMjkzOWI1YWRlM2ViNWQyZDlhYTAwMDdkMGU0OTk5Yjk0NTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMWU1MzhiZDhmMjAxNDk1MzE1ZjlkMjk1Y2I4ZTZmMjkzOWI1YWRlM2ViNWQyZDlhYTAwMDdkMGU0OTk5Yjk0NTBhIiwidWlkIjoiYzA5NzU1NmE5OTNiMzhhMWVmZTQ4YTBhNTU4ZmRhMTkiLCJ1c2VybmFtZSI6ImFndW5keSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYWd1bmR5LmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDcxMjk2NzM0LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzEyOTY3MTksImhhc2giOiI3ODM5ZTk3ZjZkYjJlNzFlMGRjOTExOGRlY2NmMGVhNzBhYzE0ZjY5NzM5YzU0YjFiMzYxNTAyMjJmNGU5MDExOTc3YjE0YmJmZWIxMzAwNDM2ZDQ0YzM4MzBlNjgzN2E1NmNlNTk0NGYyNDY5OTcxODdhYjQ5YzE0MGEzNTVlNCIsInNlcW5vIjo1NzkwNjR9LCJwcmV2IjoiOTNkODI5NDM0Nzk5NWVhZWE2YjI0N2QwMTQwMzczNzZmMDQ5Zjc4MzA4MGM2ZDBmZThiNmRkM2Q4MDU5OTg4YyIsInNlcW5vIjoxMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDXfRzyegp7w9+bATo8Dc/h6MfPHnRRSuCV7LHeV45+a8q3474VT9m2OkLZami/10V2pRXXBKGBdVDBm3zLZ4MEqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQguBj1doOQhUR9Ahqilk4CD5Oqjz34sOA82jGeyYu6rlajdGFnzQICp3ZlcnNpb24B
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgFVhU/OsPDwYly6i7ozoqM5/vbuv++4GmotBkq/Lw0GwKp3BheWxvYWTESpcCJ8Qg1c/7Y6dHC9bMchNO0yJpm6Udf2IH+X7t9YaiGSBsUC/EIAn7T7lziG0PIjczhLAZ7xQ4RfgpJBQgRY+0Sd8TrfxNAgHCo3NpZ8RAhhaVomdMUUDpDe7rPcw61Ta6UWGwvoaE59M9USzRwgY5vNhr5F7DHfyEjjhHlQ491bvu4vXJpeiO+Iktj2jKAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMSGNvcpWEeYI2Kmn+fosnVhgcxEwktbs5kB+mePXIRlo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
 View my publicly-auditable identity here: https://keybase.io/agundy
-
