@@ -1,9 +1,21 @@
+- name: Skylla Technologies
+  company_description: 
+  company_url: https://skylla.tech
+  job_title: Software Engineer
+  job_description: |
+    Building the systems that connect and enable human aware robotics
+    solutions.
+  dates: November 2018 - Present
+  technologies:
+
 - name: BookBub
   company_description: Great Deals on Bestselling Ebooks
   company_url: https://www.bookbub.com/home/
   job_title: Software Engineer
-  job_description: Improved book and author tool, helped launch new releases product and worked on the ads system.
-  dates: January 2017 -
+  job_description: |
+    Improved book and author data tools, helped launch new releases product and
+    worked on the ads team upgrading the system to support site ads.
+  dates: January 2017 - November 2018
   technologies:
       - Ruby
       - Rails
@@ -16,7 +28,10 @@
   company_description: Great Deals on Bestselling Ebooks
   company_url: https://www.bookbub.com/home/
   job_title: Software Engineer Intern
-  job_description: Worked on the team responsible for book and author data. Built tools for partners to manage their books on BookBub.com. Improved internal book data tool.
+  job_description: |
+    Worked on the team responsible for book and author data. Built tools for
+    partners to manage their books on BookBub.com. Improved internal book data
+    tool.
   dates: May 2016 - August 2016
   technologies:
       - Ruby
@@ -28,7 +43,9 @@
   company_description: Engineering Consulting Firm
   company_url: http://www.graba.engineer/
   job_title: Co-Founder
-  job_description: Write custom software and building hardware protoypes for companies who need our engineering expertise.
+  job_description: |
+    Built custom software and building hardware protoypes for companies who
+    need our engineering expertise.
   dates: February 2016 -
   technologies:
       - Ruby
@@ -40,7 +57,10 @@
   company_description: Think-tank and consulting firm
   company_url: http://www.theinventorsguild.com/ 
   job_title: Inventor
-  job_description: Completed work on multidisciplinary teams building minimum viable products for clients. Also participated in business model and technical consulting. Competed in hackathons and competitions.
+  job_description: |
+    Completed work on multidisciplinary teams building minimum viable products
+    for clients. Also participated in business model and technical consulting.
+    Competed in hackathons and competitions.
   dates: February 2015 -
   technologies:
       - Node.js
@@ -52,7 +72,14 @@
   company_description: Full-Cloud 3-D CAD
   company_url: https://www.onshape.com/ 
   job_title: Operations Co-Op
-  job_description: I worked on deployment and build automation, monitoring and alerting, and other miscellaneous projects needed by the team.  Some of the various technologies I used at Onshape including Ansible, Puppet, Python, MongoDB, Java, Angular, Logstash, and Elasticsearch.  I spent 7 months working on the operations team. The operations team was responsible for the deployment of the a multi-service web application. I worked automating deployment tasks.
+  job_description: |
+    I worked on deployment and build automation, monitoring and alerting, and
+    other miscellaneous projects needed by the team.  Some of the various
+    technologies I used at Onshape including Ansible, Puppet, Python, MongoDB,
+    Java, Angular, Logstash, and Elasticsearch.  I spent 7 months working on
+    the operations team. The operations team was responsible for the deployment
+    of the a multi-service web application. I worked automating deployment
+    tasks.
   dates: May 2015 - December 2015
   technologies:
       - Ansible
