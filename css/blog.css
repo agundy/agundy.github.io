@@ -1,43 +1,43 @@
-.blog-title small {
+.blog-title > small {
   color: #666;
 }
 
-.blog-post hr {
+.blog-post > hr {
   color: #aaa;
 }
 
-.blog-post h1 {
+.blog-post > h1 {
   font-size: 1.5em;
 }
 
-.blog-post h2 {
+.blog-post > h2 {
   font-size: 1.4em;
 }
 
-.blog-post h3 {
+.blog-post > h3 {
   font-size: 1.25em;
 }
 
-.blog-post h4 {
+.blog-post > h4 {
   font-size: 1em;
 }
 
 .blog-date {
   right:0px;
-  top:4px;
+  line-height: 1.3em;
+  color: grey;
   min-width: 125px;
-  display: block;
 }
 
 .blog-list {
-  padding-left: 0;
+  padding-left: 1em;
   list-style-type: none;
 }
 
 .blog-post-title {
   display: inline-block;
   min-width: 250px;\\
-  margin: 5px;
+  margin-top: 1em;
 }
 
 /*

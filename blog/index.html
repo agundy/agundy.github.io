@@ -4,37 +4,35 @@ title: Blog | Aaron Gunderson
 header: Blog
 ---
 
-<section>
-  <ul class="unstyled blog-list">
-    {% for post in paginator.posts %}
-    <li class="blog-post">
-      <article>
-      <h3>
-        <a class="blog-post-title" href="{{ post.url }}">{{ post.title }}</a>
-      </h3>
-      <p class="blog-date">{{ post.date | date: '%B %d, %Y' }}</p>
-      <p>{{ post.excerpt | strip_html }}</p>
-      <a href="{{ post.url }}">Read More</a>
-      </article>
-      <hr>
-    </li>
-    {% endfor %}
-  </ul>
+<ul class="unstyled blog-list">
+  {% for post in paginator.posts %}
+  <li class="blog-post">
+    <article>
+    <h3>
+      <a class="blog-post-title" href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+    <p class="blog-date">{{ post.date | date: '%B %d, %Y' }}</p>
+    <p>{{ post.excerpt | strip_html }}</p>
+    <a href="{{ post.url }}">Read More</a>
+    </article>
+    <hr>
+  </li>
+  {% endfor %}
+</ul>
 
-  <!-- Pagination links -->
-  <div>
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% else %}
-    <span class="previous disabled">Previous</span>
-    {% endif %}
-    <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-    <span class="next disabled">Next</span>
-    {% endif %}
-    <span class="pull-right">&nbsp;<a href="/blog/all/">All Posts</a></span>
-    <span class="pull-right"><a href="/feed.xml"><i class="fa fa-rss"></i></a></span>
-  </div>
-</section>
+<!-- Pagination links -->
+<div>
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+  <span class="previous disabled">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+  <span class="next disabled">Next</span>
+  {% endif %}
+  <span class="pull-right">&nbsp;<a href="/blog/all/">All Posts</a></span>
+  <span class="pull-right"><a href="/feed.xml"><i class="fa fa-rss"></i></a></span>
+</div>

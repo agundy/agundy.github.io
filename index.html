@@ -15,10 +15,14 @@ description: Aaron Gunderson is a software engineer interested in web applicatio
   <ul class="unstyled blog-list">
     {% for post in site.posts limit: 3 %}
     <li>
-      <p class="blog-date">
+      <p>
+      <span class="blog-date">
         {{ post.date | date: '%B %d, %Y' }}
+      </span>
       </p>
+      <p>
       <a class="blog-post-title" href="{{ post.url }}"><b>{{ post.title }}</b></a>
+      </p>
     </li>
     {% endfor %}
   </ul>

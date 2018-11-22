@@ -11,7 +11,7 @@
       {% include navigation.html %}
     </section>
     <section class="content left-bar">
-      <h1 class="blog-title bottom-bar">{{ page.title }} <small>{{ page.date | date: '%B %d, %Y' }}</small></h1>
+      <h1 class="blog-title bottom-bar">{{ page.title }} <small class="blog-date">{{ page.date | date: '%B %d, %Y' }}</small></h1>
       <article class="blog-post">
         {{ content }}
       </article>
