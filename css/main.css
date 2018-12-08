@@ -1,12 +1,16 @@
+@media (min-width: 1200px){
+  body {
+    margin-left: 10%;
+  }
+
+  #wrapper {
+    width: 80%;
+  }
+}
+
 html {
   font-family: 'Roboto', sans-serif;
   color: #333;
-}
-
-body {
-  display: flex;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
-  font-size: 1em;
 }
 
 #wrapper {
@@ -15,9 +19,11 @@ body {
 }
 
 body {
-  margin-top: 2%;
+  display: flex;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+  font-size: 1em;
+  margin-top: 5em;
   margin-bottom: 2%;
-  margin-left: 20%;
   margin-right: 20%;
   background-color: #fdfdfd;
   flex-flow: row;
@@ -63,18 +69,6 @@ body {
   .navigation p {
     margin-left: 2em;
   }
-}
-
-@media (min-width: 650px) and max-width: 1200px){
-  body {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-
-  #wrapper {
-    width: 70%;
-  }
-
 }
 
 a {

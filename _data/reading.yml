@@ -3,6 +3,8 @@ lists:
 books:
   - year: 2018
     books:
+      - title: Dead Mountain
+      - title: Red Mars
       - title: Chaos Monkeys
       - title: Educated
         link: 
