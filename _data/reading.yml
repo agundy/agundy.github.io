@@ -3,6 +3,16 @@ lists:
 books:
   - year: 2018
     books:
+      - title: The Traitor Baru Cormorant
+        version: eBook
+        notes: >
+          I thoroughly enjoyed this read. I don't know how to describe the
+          genre but a little sci-fi, historical and political. Baru's home
+          island is colonized when she is a young girl. She works to avenge and
+          free her island from inside the government that colonized. A
+          political and accounting savant Baru is tasked with managing taxes
+          for a divided and rebellious region to prove her worth to the shadowy
+          government.
       - title: Antifragile
         version: Audiobook
         notes: >
