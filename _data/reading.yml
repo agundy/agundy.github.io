@@ -3,6 +3,16 @@ lists:
 books:
   - year: 2018
     books:
+      - title: Antifragile
+        version: Audiobook
+        notes: >
+          There are not just two states fragile and robust, there is a third
+          one, antifragile. Robust things do not break like a fragile thing
+          will but robust things don't get stronger with time or random events.
+          Antifragile systems do; they limit the exposure to downside and expose
+          themselves to the upside if things go well. I found this book really
+          engaging, novel and thought provoking. I would love to reread this
+          and discuss with someone.
       - title: Dead Mountain
       - title: Red Mars
       - title: Chaos Monkeys
