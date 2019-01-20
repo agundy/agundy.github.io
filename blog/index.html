@@ -8,12 +8,11 @@ header: Blog
   {% for post in paginator.posts %}
   <li class="blog-post">
     <article>
-    <h3>
+    <h2>
       <a class="blog-post-title" href="{{ post.url }}">{{ post.title }}</a>
-    </h3>
+    </h2>
     <p class="blog-date">{{ post.date | date: '%B %d, %Y' }}</p>
-    <p>{{ post.excerpt | strip_html }}</p>
-    <a href="{{ post.url }}">Read More</a>
+    <p>{{ post.content }}</p>
     </article>
     <hr>
   </li>
