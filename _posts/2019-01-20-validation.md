@@ -23,9 +23,9 @@ and "this is me" feelings do not come as easily from external sources as they
 do from reflection, purposeful work with trial and error and feedback.
 
 Feedback? "But Aaron, that sounds external?" It may or may not be but I see a
-difference here. Feedback is an active for of validation and nothing says it is
-purely positive. Constructive feedback, thoughtful recognition of emotions or
-views and suggestions on ways to improve the self are more valuable then a
+difference here. Feedback is an active form of validation and nothing says it
+is purely positive. Constructive feedback, thoughtful recognition of emotions
+or views and suggestions on ways to improve the self are more valuable then a
 simple like, retweet, or simple comment.
 
 So here is is my call for you to validate me. Not with a like or a retweet but
