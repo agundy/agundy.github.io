@@ -7,8 +7,9 @@ description: Aaron Gunderson is a software engineer interested in web applicatio
 
 <article>
   <p>
-  Hello human, my name is Aaron. I'm a nerd living in Boston having fun,
-  learning a lot and working as a a Software Engineer at
+  Hello human, my name is Aaron. I'm a nerd living in Boston focused on
+  continuous learning, and enjoying life while working hard.  I work as a a
+  Software Engineer at
   <a href="http://www.skylla.tech" target="_blank">Skylla Technologies.</a> I'm
   a curious person with many interests. This is my home on the web. I post
   short thoughts on my <a href="http://micro.agundy.com">micro blog</a> and
@@ -22,7 +23,7 @@ description: Aaron Gunderson is a software engineer interested in web applicatio
   <h3>Recent Posts:</h3>
   <ul class="unstyled blog-list">
     {% for post in site.posts limit: 3 %}
-    <li>
+    <li class="blog-post">
       <p>
       <span class="blog-date">
         {{ post.date | date: '%B %d, %Y' }}
@@ -31,7 +32,12 @@ description: Aaron Gunderson is a software engineer interested in web applicatio
       <p>
       <a class="blog-post-title" href="{{ post.url }}"><b>{{ post.title }}</b></a>
       </p>
+      <p>{{ post.excerpt || strip_html }}</p>
+      <a href="{{ post.url }}">Read More</a>
     </li>
     {% endfor %}
+    <li class="blog-post">
+      <a href="/blog"><b>More Posts</b></a>
+    </li>
   </ul>
 </article>

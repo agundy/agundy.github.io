@@ -2,23 +2,29 @@
   color: #666;
 }
 
-.blog-post > hr {
-  color: #aaa;
+.blog-post {
+  margin-top: 2em;
 }
 
-.blog-post > h1 {
+.blog-post > hr {
+  color: #aaa;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.blog-post h1 {
   font-size: 1.5em;
 }
 
-.blog-post > h2 {
+.blog-post h2 {
   font-size: 1.4em;
 }
 
-.blog-post > h3 {
+.blog-post h3 {
   font-size: 1.25em;
 }
 
-.blog-post > h4 {
+.blog-post h4 {
   font-size: 1em;
 }
 
@@ -46,6 +52,7 @@
 .blog-post-navigation {
   display: flex;
   width: 100%;
+  margin-top: 3em;
 }
 
 @media (min-width: 650px) {
