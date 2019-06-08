@@ -1,8 +1,19 @@
 lists: 
   - category: Top Books
 books:
+  - year: 2019
+    books:
+      - title: Assassin's Apprentice
+      - title: Royal Assassin
+      - title: Assassin's Quest
+      - title: Ship of Magic
+      - title: Mad Ship
+      - title: Ship of Destiny
+      - title: Fool's Assassin
+      - title: Neuromancer
   - year: 2018
     books:
+      - title: Flow
       - title: The Traitor Baru Cormorant
         version: eBook
         notes: >
