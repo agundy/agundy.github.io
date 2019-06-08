@@ -16,15 +16,15 @@ I read a lot. Here are some of my read books and reviews.
     <li>
       <a href="{{ book.link }}">{{ book.title }}</a>
       {% if book.notes != null %}
-      <a href="#{{ book.title | url_encode }}">View Notes</a>
+      <a href="#{{ item.year | append: '-' | append: book.title | url_encode }}">View Notes</a>
       <br>
       {% endif %}
     </li>
     {% else %}
     <li>
-      {{ book.title }}
+      <p>{{ book.title }}</p>
       {% if book.notes != null %}
-      <a href="#{{ book.title | url_encode }}">View Notes</a>
+      <a href="#{{ item.year | append: '-' | append: book.title | url_encode }}">View Notes</a>
       <br>
       {% endif %}
     </li>
@@ -40,7 +40,7 @@ I read a lot. Here are some of my read books and reviews.
   <ul>
     {% for book in item.books %}
       {% if book.notes != null %}
-      <h4 id="{{ book.title | url_encode }}">{{ book.title }}</h4>
+      <h4 id="{{ item.year | append: '-' | append: book.title | url_encode }}">{{ book.title }}</h4>
         {% if book.link != null %}
         <a href="{{ book.link }}">Link</a>
         {% endif %}
