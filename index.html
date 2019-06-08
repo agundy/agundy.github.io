@@ -32,7 +32,7 @@ description: Aaron Gunderson is a software engineer interested in web applicatio
       <p>
       <a class="blog-post-title" href="{{ post.url }}"><b>{{ post.title }}</b></a>
       </p>
-      <p>{{ post.excerpt || strip_html }}</p>
+      <p>{{ post.excerpt | strip_html }}</p>
       <a href="{{ post.url }}">Read More</a>
     </li>
     {% endfor %}
