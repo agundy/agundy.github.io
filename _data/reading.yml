@@ -3,6 +3,8 @@ lists:
 books:
   - year: 2019
     books:
+      - title: Fool's Errand
+      - title: Golden Fool
       - title: Assassin's Apprentice
       - title: Royal Assassin
       - title: Assassin's Quest
