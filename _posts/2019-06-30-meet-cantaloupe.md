@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meet Canataloupe
+title: Meet Cantaloupe
 ---
 
 This is a fun little project I built this winter and I haven't shown off here
