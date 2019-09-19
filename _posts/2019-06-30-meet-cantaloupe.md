@@ -3,12 +3,12 @@ layout: post
 title: Meet Canataloupe
 ---
 
-![Desktop Picture](/assets/img/blog/cantaloupe.jpg)
-
 This is a fun little project I built this winter and I haven't shown off here
 yet. I have been itching to build a home server for a media center, network
-attached storage and general nerd playground. One weekend I drug Michelle to
+attached storage and general nerd playground. One weekend I dragged Michelle to
 Micro Center and grab threw together a pretty decent server for under $400.
+
+![Desktop Picture](/assets/img/blog/cantaloupe.jpg)
 
 For the people looking for specs:
 
